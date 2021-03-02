@@ -1,0 +1,361 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'AkzidenzGroteskPro';
+  margin: 0 auto;
+  background: black;
+  width: 100vw;
+  height: 100%;
+}
+
+.textblock1{
+  position: absolute;
+  width: 54.792vw;
+  height: 13.333vw;
+  left: 22.639vw;
+  top: 24.653vw;
+
+  font-family: "Akzidenz-Grotesk Pro";
+  font-weight: 700;
+	font-stretch: expanded;
+  font-size: 6.944vw;
+  line-height: 96%;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.textblock2{
+  position: absolute;
+  width: 30.903vw;
+  height: 1.736vw;
+  left: 34.583vw;
+  top: 38.542vw;
+
+  font-family: "Akzidenz-Grotesk Pro";
+  font-weight: 200;
+  font-stretch: expanded;
+  font-size: 1.806vw;
+  line-height: 96%;
+
+  color: #FFFFFF;
+}
+
+.circle1 {
+  position: absolute;
+  width: 20.625vw;
+  height: 20.625vw;
+  left: -7.917vw;
+  top: -2.917vw;
+  border-radius: 50%;
+  background: #21B8EB;
+}
+
+.circle2 {
+  position: absolute;
+  width: 4.167vw;
+  height: 4.167vw;
+  left: 6.736vw;
+  top: 3vw;
+  border-radius: 50%;
+  background: #FFEC51;
+}
+
+.circle3 {
+  position: absolute;
+  width: 15.625vw;
+  height: 15.625vw;
+  left: 21.389vw;
+  top: 4.931vw;
+  border-radius: 50%;
+  background: #F3A2BC;
+  z-index: -1;
+}
+
+.circle4 {
+  position: absolute;
+  width: 17.639vw;
+  height: 17.639vw;
+  left: -4.931vw;
+  top: 10vw;
+  border: 7px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.circle5 {
+  position: absolute;
+  width: 30.139vw;
+  height: 30.139vw;
+  left: 0.694vw;
+  top: 38.333vw;
+  border: 7px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.circle6 {
+  position: absolute;
+  width: 16.181vw;
+  height: 16.181vw;
+  left: 11.389vw;
+  top: 32vw;
+  background: #FFCCD6;
+  border-radius: 50%;
+}
+
+.circle7 {
+  position: absolute;
+  width: 9.444vw;
+  height: 9.444vw;
+  left: 17vw;
+  top: 45vw;
+  background: #FFEC51;
+  border-radius: 50%;
+}
+
+.circle8 {
+  position: absolute;
+  width: 19.028vw;
+  height: 19.028vw;
+  left: -5vw;
+  top: 47.917vw;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle9 {
+  position: absolute;
+  width: 25.486vw;
+  height: 25.486vw;
+  left: 38.542vw;
+  top: -10.764vw;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle10 {
+  position: absolute;
+  width: 31.250vw;
+  height: 31.250vw;
+  left: 76vw;
+  top: -7.917vw;
+  background: #FFCCD6;
+  border-radius: 50%;
+}
+
+.circle11 {
+  position: absolute;
+  width: 11.181vw;
+  height: 11.181vw;
+  left: 72.778vw;
+  top: 10vw;
+  background: #FFEC51;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle12 {
+  position: absolute;
+  width: 5.972vw;
+  height: 5.972vw;
+  left: 84.792vw;
+  top: 20.764vw;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle13 {
+  position: absolute;
+  width: 8.056vw;
+  height: 8.056vw;
+  left: 76.250vw;
+  top: 39.444vw;
+  background: #F3A2BC;
+  border-radius: 50%;
+}
+
+.circle14 {
+  position: absolute;
+  width: 18.264vw;
+  height: 18.264vw;
+  left: 66.875vw;
+  top: 50.764vw;
+  background: #21B8EB;
+  border-radius: 50%;
+}
+
+.circle15 {
+  position: absolute;
+  width: 5.694vw;
+  height: 5.694vw;
+  left: 76.389vw;
+  top: 52.500vw;
+  background: #FFEC51;
+  border-radius: 50%;
+}
+
+.circle16 {
+  position: absolute;
+  width: 11.806vw;
+  height: 11.806vw;
+  left: 60.972vw;
+  top: 47.917vw;
+  border: 7px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 1.469vw;
+  height: 16.008vw;
+  left: 16.990vw;
+  top: -1.302vw;
+
+  background: #FFCCD6;
+  transform: matrix(-0.5, -0.86, -0.86, 0.5, 0, 0);
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 1.924vw;
+  height: 24.861vw;
+  left: 53vw;
+  top: -3.992vw;
+
+  background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
+  transform: rotate(-29.2deg);
+}
+
+.rectangle3 {
+  position: absolute;
+  width: 2.698vw;
+  height: 24.861vw;
+  left: 95vw;
+  top: 8vw;
+
+  background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
+  transform: rotate(-46.87deg);
+}
+
+.colorimg1 {
+  position: absolute;
+  left: 0vw;
+  top: 200px;
+  z-index: 1;
+}
+
+.colorimg2 {
+  position: absolute;
+  right: 10vw;
+  top: 0vw;
+  z-index: 0;
+}
+
+.colorimg3 {
+  position: absolute;
+  right: 0vw;
+  top: 30vw;
+  z-index: 0;
+}
+
+.whiteimg {
+  position: absolute;
+  left: 28px;
+  top: 0vw;
+  z-index: -1;
+}
+
+.arrowimg1 {
+  position: absolute;
+  left: 50vw;
+  top: 44.583vw;
+}
+
+.textblock3 {
+  position: absolute;
+  left: 40.972vw;
+  top: 56.736vw;
+
+  font-family: "Akzidenz-Grotesk Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.667vw;
+  line-height: 2.153vw;
+
+  color: #FFFFFF;
+}
+
+.cross1 {
+  position: absolute;
+  left: 4vw;
+  top: 12.083vw;
+}
+
+.cross2 {
+  position: absolute;
+  left: 44.306vw;
+  top: 7.240vw;
+}
+
+.cross3 {
+  position: absolute;
+  left: 62.681vw;
+  top: 19.792vw;
+}
+
+.cross4 {
+  position: absolute;
+  left: 85.953vw;
+  top: 3.750vw;
+}
+
+.cross5 {
+  position: absolute;
+  left: 39.863vw;
+  top: 44.167vw;
+}
+
+.cross6 {
+  position: absolute;
+  left: 65.537vw;
+  top: 51.181vw;
+}
+
+.cross7 {
+  position: absolute;
+  left: 79.236vw;
+  top: 35.660vw;
+}
+
+.figimg1 {
+  position: absolute;
+  left: 22vw;
+  top: 40vw;
+}
+
+.figimg2 {
+  position: absolute;
+  left: 54vw;
+  top: 3.460vw;
+}
+
+.figimg3 {
+  position: absolute;
+  left: 78.5vw;
+  top: 42vw;
+}
+
+.helpimg {
+  position: absolute;
+  left: 89.028vw;
+  top: 0.972vw;
+}
