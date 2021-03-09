@@ -1545,7 +1545,7 @@ and (orientation: portrait) {
     font-style: normal;
     font-weight: normal;
     font-size: 90px;
-    line-height: 13px;
+    /* line-height: 13px; */
     /* identical to box height */
 
 
