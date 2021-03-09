@@ -14,10 +14,31 @@ body {
   background: black;
   width: 100vw;
   height: 100%;
-  /* position: absolute;
-  overflow: hidden; */
-
 }
+
+.screen1 {
+    margin: 0 auto;
+    width: 1440px;
+    height: 900px;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.screen1animation {
+
+    animation: 1.5s linear scroll;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0vw);
+  }
+  100% {
+    transform: translateY(-100vw);
+  }
+}
+
+
 
 
 .textblock1{

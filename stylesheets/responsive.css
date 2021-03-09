@@ -11,16 +11,7 @@ and (max-width: 1440px) {
 
 
 
-@media only screen and (min-width: 1440px) {
-    .screen1 {
-        margin: 0 auto;
-        /* background: black; */
-        width: 1440px;
-        height: 900px;
-        position: absolute;
-        overflow: hidden;
-    }
-  }
+
 
 /* @media only screen and (min-width: 1280px) {
     .screen1 {
