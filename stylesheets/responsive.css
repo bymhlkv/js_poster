@@ -1,0 +1,1202 @@
+  /* Desktop */
+@media only screen and (min-width: 1450px)
+{
+  .textblock1{
+    position: absolute;
+    width: 65.694vw;
+    height: 15.972vw;
+    left: 25.486vw;
+    top: 28.472vw;
+
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8.333vw;
+    line-height: 96%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .textblock2{
+    position: absolute;
+    width: 36.806vw;
+    height: 2.083vw;
+    left: 39.931vw;
+    top: 44.236vw;
+
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.1vw;
+    line-height: 96%;
+    color: #FFFFFF;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 22.986vw;
+    height: 22.986vw;
+    left: -4.097vw;
+    top: -2.639vw;
+    background: #21B8EB;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 4.167vw;
+    height: 4.167vw;
+    left: 17.292vw;
+    top: 9.722vw;
+    background: #FFEC51;
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 15.625vw;
+    height: 15.625vw;
+    left: 31.944vw;
+    top: 8.819vw;
+    background: #F3A2BC;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 20.694vw;
+    height: 20.694vw;
+    left: 2.917vw;
+    top: 10.486vw;
+    border: 0.694vw solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 35.347vw;
+    height: 35.347vw;
+    left: 2.500vw;
+    top: 41.528vw;
+    border: 0.694vw solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 18.194vw;
+    height: 18.194vw;
+    left: 12.361vw;
+    top: 38.819vw;
+    background: #FFCCD6;
+    border-radius: 50%;
+  }
+
+  .circle7 {
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 329px;
+    top: 770px;
+    background: #FFEC51;
+    transform: rotate(-31.52deg);
+    border-radius: 50%;
+  }
+
+  .circle8 {
+    position: absolute;
+    width: 23.056vw;
+    height: 23.056vw;
+    left: -5.139vw;
+    top: 54.306vw;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 25.486vw;
+    height: 25.486vw;
+    left: 49.097vw;
+    top: -6.875vw;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 32.500vw;
+    height: 32.500vw;
+    left: 88.958vw;
+    top: -5.139vw;
+    background: #FFCCD6;
+    border-radius: 50%;
+  }
+
+  .circle11 {
+    position: absolute;
+    width: 14.028vw;
+    height: 14.028vw;
+    left: 79.722vw;
+    top: 11.042vw;
+    background: #FFEC51;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle12 {
+    position: absolute;
+    width: 5.972vw;
+    height: 5.972vw;
+    left: 95.347vw;
+    top: 24.653vw;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle13 {
+    position: absolute;
+    width: 9.236vw;
+    height: 9.236vw;
+    left: 85.417vw;
+    top: 42.361vw;
+    background: #F3A2BC;
+    border-radius: 50%;
+  }
+
+  .circle14 {
+    position: absolute;
+    width: 22.222vw;
+    height: 22.222vw;
+    left: 77.431vw;
+    top: 54.653vw;
+    background: #21B8EB;
+    border-radius: 50%;
+  }
+
+  .circle15 {
+    position: absolute;
+    width: 5.694vw;
+    height: 5.694vw;
+    left: 86.944vw;
+    top: 56.389vw;
+    background: #FFEC51;
+    border-radius: 50%;
+  }
+
+  .circle16 {
+    position: absolute;
+    width: 11.806vw;
+    height: 11.806vw;
+    left: 71.528vw;
+    top: 51.806vw;
+    border: 0.694vw solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .rectangle1 {
+    position: absolute;
+    width: 1.469vw;
+    height: 16.008vw;
+    top: -5.556vw;
+
+    background: #FFCCD6;
+    transform: matrix(-0.5, -0.86, -0.86, 0.5, 0, 0);
+  }
+
+  .rectangle2 {
+    position: absolute;
+    width: 1.924vw;
+    height: 24.861vw;
+    left: 63.889vw;
+    top: -2.083vw;
+    background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
+    transform: rotate(-29.2deg);
+  }
+
+  .rectangle3 {
+    position: absolute;
+    width: 2.832vw;
+    height: 26.095vw;
+    left: 107.639vw;
+    top: 13.889vw;
+    background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
+    transform: rotate(-46.87deg);
+  }
+
+  .colorimg1 {
+    position: absolute;
+    width: 13.889vw;
+    left: 0vw;
+    top: 12.500vw;
+  }
+
+  .colorimg2 {
+    position: absolute;
+    width: 25vw;
+    left: 76.389vw;
+    top: 0vw;
+  }
+
+  .colorimg3 {
+    osition: absolute;
+    width: 17.361vw;
+    left: 104.167vw;
+    top: 40.921vw;
+    transform: rotate(-18.91deg);
+  }
+
+  .whiteimg {
+    position: absolute;
+    width: 31.250vw;
+    left: 15.278vw;
+    top: -3.472vw;
+
+    transform: rotate(15deg);
+    z-index: -1;
+  }
+
+  .arrowimg1 {
+    position: absolute;
+    width: 1.389vw;
+    left: 58.333vw;
+    top: 51.736vw;
+    box-sizing: border-box;
+  }
+
+  .textblock3 {
+    position: absolute;
+    width: 21.111vw;
+    height: 2.500vw;
+    left: 47.569vw;
+    top: 63.264vw;
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.944vw;
+    line-height: 2.500vw;
+    color: #FFFFFF;
+  }
+
+  .cross1 {
+    position: absolute;
+    width: 4.167vw;
+    left: 16.504vw;
+    top: 15.972vw;
+  }
+
+  .cross2 {
+    position: absolute;
+    width: 4.167vw;
+    left: 54.861vw;
+    top: 11.128vw;
+
+  }
+
+  .cross3 {
+    position: absolute;
+    width: 2.778vw;
+    left: 73.237vw;
+    top: 23.681vw;
+
+  }
+
+  .cross4 {
+    position: absolute;
+    width: 3.472vw;
+    left: 96.508vw;
+    top: 7.639vw;
+  }
+
+  .cross5 {
+    position: absolute;
+    width: 2.669vw;
+    height: 2.774vw;
+    left: 47.502vw;
+    top: 51.389vw;
+
+    transform: rotate(64.43deg);
+  }
+
+  .cross6 {
+    position: absolute;
+    width: 1.849vw;
+    height: 1.921vw;
+    left: 76.093vw;
+    top: 55.069vw;
+
+    transform: rotate(42.66deg);
+  }
+
+  .cross7 {
+    position: absolute;
+    width: 18.89;
+    height: 1.363vw;
+    left: 82.361vw;
+    top: 39.757vw;
+
+    transform: rotate(-4.54deg);
+  }
+
+
+  .figimg1 {
+    position: absolute;
+    width: 6.776vw;
+    height: 6.776vw;
+    left: 27.778vw;
+    top: 49.653vw;
+  }
+
+  .figimg2 {
+    position: absolute;
+    width: 5.051vw;
+    height: 5.051vw;
+    left: 64.583vw;
+    top: 6.250vw;
+  }
+
+  .figimg3 {
+    position: absolute;
+    width: 5.047vw;
+    height: 5.047vw;
+    left: 88.194vw;
+    top: 44.444vw;
+    z-index: 1;
+
+  }
+
+  .helpimg {
+    position: absolute;
+    width: 11.389vw;
+    height: 11.389vw;
+    left: 102.778vw;
+    top: 2.500vw;
+  }
+}
+
+
+  /* iPad Portrait */
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+
+  body {
+    overflow: hidden;
+  }
+
+  .textblock1{
+    position: absolute;
+    width: 513px;
+    height: 124px;
+    left: 128px;
+    top: 450px;
+
+
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 96%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .textblock2{
+    position: absolute;
+    width: 291px;
+    height: 16px;
+    left: 239px;
+    top: 582px;
+
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 96%;
+
+    color: #FFFFFF;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: -47px;
+    top: -28px;
+    border-radius: 50%;
+    background: #21B8EB;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 46.98px;
+    height: 48.18px;
+    left: 44.74px;
+    top: 116px;
+    border-radius: 50%;
+    background: #FFEC51;
+
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    left: 189.11px;
+    top: 188px;
+    background: #F3A2BC;
+    transform: rotate(20.32deg);
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 186px;
+    height: 185px;
+    left: -88px;
+    top: 252px;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 242px;
+    height: 241px;
+    left: 52px;
+    top: 669px;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 161.3px;
+    height: 158.54px;
+    left: 33px;
+    top: 641.33px;
+    background: #FFCCD6;
+    transform: rotate(-31.52deg);
+    border-radius: 50%;
+  }
+
+  .circle7 {
+    position: absolute;
+    width: 122.7px;
+    height: 122.7px;
+    left: 99.23px;
+    top: 741.41px;
+    background: #FFEC51;
+    transform: rotate(-31.52deg);
+    border-radius: 50%;
+  }
+
+  .circle8 {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: -43px;
+    top: 846px;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 241px;
+    height: 241px;
+    left: 194px;
+    top: -80px;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle10 {
+    position: absolute;
+    width: 341px;
+    height: 340px;
+    left: 516px;
+    top: -65px;
+    background: #FFCCD6;
+    border-radius: 50%;
+  }
+
+  .circle11 {
+    position: absolute;
+    width: 135px;
+    height: 134px;
+    left: 491px;
+    top: 213px;
+    background: #FFEC51;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle12 {
+    position: absolute;
+    width: 69px;
+    height: 70px;
+    left: 640px;
+    top: 339px;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle13 {
+    position: absolute;
+    width: 77px;
+    height: 76px;
+    left: 569px;
+    top: 538px;
+    background: #F3A2BC;
+    border-radius: 50%;
+  }
+
+  .circle14 {
+    position: absolute;
+    width: 248px;
+    height: 248px;
+    left: 558px;
+    top: 821px;
+    background: #21B8EB;
+    border-radius: 50%;
+  }
+
+  .circle15 {
+    position: absolute;
+    width: 70px;
+    height: 71px;
+    left: 679px;
+    top: 862px;
+    background: #FFEC51;
+    border-radius: 50%;
+  }
+
+  .circle16 {
+    position: absolute;
+    width: 171px;
+    height: 172px;
+    left: 493px;
+    top: 769px;
+    border: 5px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .rectangle1 {
+    position: absolute;
+    width: 13.87px;
+    height: 151.15px;
+    left: 100px;
+    top: -15px;
+    background: #FFCCD6;
+    transform: matrix(0.29, -0.96, -0.96, -0.29, 0, 0);
+  }
+
+  .rectangle2 {
+    position: absolute;
+    width: 18.17px;
+    height: 234.74px;
+    left: 310px;
+    top: -22.08px;
+    background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
+    transform: rotate(-19.05deg);
+  }
+
+  .rectangle3 {
+    position: absolute;
+    width: 16.59px;
+    height: 189.88px;
+    left: 695px;
+    top: 100px;
+    background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
+    transform: rotate(-46.87deg);
+  }
+
+  .colorimg1 {
+    background-image: url ("ipad/color1.svg");
+    position: absolute;
+    position: absolute;
+    width: 130px;
+    left: 0px;
+    top: 220px;
+
+  }
+
+  .colorimg2 {
+    background-image: url ("ipad/color2.svg");
+    position: absolute;
+    width: 300px;
+    left: 400px;
+    top: 0px;
+
+  }
+
+  .colorimg3 {
+    background-image: url ("ipad/color2.svg");
+    position: absolute;
+    width: 110px;
+    right: 0px;
+    top: 650px;
+    z-index: 0;
+    transform: rotate(-40deg);
+  }
+
+  .whiteimg {
+    background-image: url ("ipad/color2.svg");
+    position: absolute;
+    width: 240px;;
+    left: 60px;
+    top: 95px;
+    transform: rotate(15deg);
+    z-index: -1;
+  }
+
+  .arrowimg1 {
+    background-image: url ("ipad/Arrow1.svg");
+    position: absolute;
+    left: 384px;
+    top: 633px;
+  }
+
+  .textblock3 {
+    position: absolute;
+    width: 185px;
+    height: 22px;
+    left: 292px;
+    top: 929px;
+    font-family: "Akzidenz-Grotesk Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+
+  .cross1 {
+    background-image: url ("ipad/cross1.svg");
+    position: absolute;
+    width: 20.99px;
+    height: 21.81px;
+    left: 64.96px;
+    top: 510px;
+  }
+
+  .cross2 {
+    background-image: url ("ipad/cross2.svg");
+    position: absolute;
+    width: 26.91px;
+    height: 27.96px;
+    left: 235px;
+    top: 73.44px;
+    transform: rotate(-7.35deg);
+  }
+
+  .cross3 {
+    background-image: url ("ipad/cross3.svg");
+    position: absolute;
+    width: 17.15px;
+    height: 17.82px;
+    left: 403.97px;
+    top: 307px;
+    transform: rotate(34.04deg);
+  }
+
+  .cross4 {
+    background-image: url ("ipad/cross4.svg");
+    position: absolute;
+    width: 21.09px;
+    height: 21.91px;
+    left: 600px;
+    top: 110px;
+    transform: rotate(24.24deg);
+  }
+
+  .cross5 {
+    background-image: url ("ipad/cross5.svg");
+    position: absolute;
+    width: 19.37px;
+    height: 20.13px;
+    left: 321.27px;
+    top: 656px;
+    transform: rotate(24.24deg);
+  }
+
+  .cross6 {
+    background-image: url ("ipad/cross6.svg");
+    position: absolute;
+    width: 24.67px;
+    height: 25.64px;
+    left: 552.19px;
+    top: 830.97px;
+    transform: rotate(42.66deg);
+  }
+
+  .cross7 {
+    background-image: url ("ipad/cross7.svg");
+    position: absolute;
+    width: 19.16px;
+    height: 19.91px;
+    left: 685px;
+    top: 519.52px;
+    transform: rotate(-4.54deg);
+  }
+
+  .figimg1 {
+    background-image: url ("ipad/cross7.svg");
+    position: absolute;
+    width: 76.44px;
+    height: 76.44px;
+    left: 130px;
+    top: 760px;
+    /* transform: rotate(52.13deg); */
+  }
+
+  .figimg2 {
+    position: absolute;
+    height: 47.69px;
+    left: 320px;
+    top: 50px;
+    transform: rotate(15deg);
+  }
+
+  .figimg3 {
+    position: absolute;
+    width: 42.95px;
+    height: 42.95px;
+    left: 590px;
+    top: 560px;
+
+  }
+
+  .helpimg {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 633px;
+    top: 19px;
+
+  }
+
+}
+
+
+
+  /* iPad Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+
+  body {
+    width: 1024px;
+    height: 768px;
+  }
+
+  .textblock1{
+    position: absolute;
+    width: 53.906vw;
+    height: 13.086vw;
+    left: 23.047vw;
+    top: 30.957vw;
+    font-family: 'Akzidenz-Grotesk Pro';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.836vw;
+    line-height: 96%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .textblock2{
+    position: absolute;
+    width: 30.078vw;
+    height: 1.660vw;
+    left: 34.961vw;
+    top: 44.727vw;
+
+    font-family: 'Akzidenz-Grotesk Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.758vw;
+    line-height: 96%;
+    color: #FFFFFF;
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 21.484vw;
+    height: 21.484vw;
+    left: -8.398vw;
+    top: -5.566vw;
+    background: #21B8EB;
+  }
+
+  .circle2 {
+    position: absolute;
+    width: 4.688vw;
+    height: 4.688vw;
+    left: 6.152vw;
+    top: 9.375vw;
+    background: #FFEC51;
+
+  }
+
+  .circle3 {
+    position: absolute;
+    width: 12.402vw;
+    height: 12.402vw;
+    left: 18.468vw;
+    top: 16vw;
+    background: #F3A2BC;
+    transform: rotate(20.32deg);
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+  .circle4 {
+    position: absolute;
+    width: 20.410vw;
+    height: 20.410vw;
+    left: -8.105vw;
+    top: 15.723vw;
+    border: 0.488vw solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circle5 {
+    position: absolute;
+    width: 28.516vw;
+    height: 28.516vw;
+    left: 2.832vw;
+    top: 48.535vw;
+    border: 0.488vw solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  .circle6 {
+    position: absolute;
+    width: 14.258vw;
+    height: 14.258vw;
+    left: 11.621vw;
+    top: 40.918vw;
+    background: #FFCCD6;
+    border-radius: 50%;
+  }
+
+  .circle7 {
+    position: absolute;
+    width: 10.938vw;
+    height: 10.938vw;
+    left: 14.941vw;
+    top: 52.441vw;
+    background: #FFEC51;
+    border-radius: 50%;
+  }
+
+  .circle8 {
+    position: absolute;
+    width: 19.531vw;
+    height: 19.531vw;
+    left: -4.199vw;
+    top: 58.398vw;
+    background: #FFFFFF;
+  }
+
+  .circle9 {
+    position: absolute;
+    width: 29.590vw;
+    height: 29.590vw;
+    left: 36.914vw;
+    top: -11.133vw;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle10 {
+
+    position: absolute;
+    width: 36.133vw;
+    height: 36.133vw;
+    left: 70.605vw;
+    top: -8.691vw;
+    background: #FFCCD6;
+    border-radius: 50%;
+  }
+
+  .circle11 {
+    position: absolute;
+    width: 12.598vw;
+    height: 12.598vw;
+    left: 74.121vw;
+    top: 17.871vw;
+    background: #FFEC51;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .circle12 {
+    position: absolute;
+    width: 6.934vw;
+    height: 6.934vw;
+    left: 86.914vw;
+    top: 24.414vw;
+    background: #FFFFFF;
+    border-radius: 50%;
+  }
+
+  .circle13 {
+    position: absolute;
+    width: 7.324vw;
+    height: 7.324vw;
+    left: 68.945vw;
+    top: 45.313vw;
+    background: #F3A2BC;
+    border-radius: 50%;
+  }
+
+  .circle14 {
+    position: absolute;
+    width: 25.586vw;
+    height: 25.586vw;
+    left: 76.563vw;
+    top: 56.934vw;
+    background: #21B8EB;
+    border-radius: 50%;
+  }
+
+  .circle15 {
+    position: absolute;
+    width: 7.129vw;
+    height: 7.129vw;
+    left: 85.156vw;
+    top: 60vw;
+    background: #FFEC51;
+    border-radius: 50%;
+  }
+
+  .circle16 {
+    position: absolute;
+    width: 13.672vw;
+    height: 13.672vw;
+    left: 68.066vw;
+    top: 56.543vw;
+    border: 0.391vw solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+
+  .rectangle1 {
+    position: absolute;
+    width: 1.699vw;
+    height: 18.521vw;
+    left: 12vw;
+    top: -6vw;
+    background: #FFCCD6;
+    transform: matrix(-0.5, -0.86, -0.86, 0.5, 0, 0);
+  }
+
+  .rectangle2{
+    position: absolute;
+    width: 2.227vw;
+    height: 28.766vw;
+    left: 53vw;
+    top: -3.699vw;
+    background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
+    transform: rotate(-29.2deg);
+  }
+
+  .rectangle3 {
+    position: absolute;
+    width: 2.525vw;
+    height: 23.269vw;
+    left: 95vw;
+    top: 8vw;
+    background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
+    transform: rotate(-46.87deg);
+  }
+
+  .colorimg1 {
+    position: absolute;
+    width: 14vw;
+    height: 29.591vw;
+    left: 0vw;
+    top: 13vw;
+  }
+
+  .colorimg2 {
+    position: absolute;
+    width: 25vw;
+    height: 35.049vw;
+    left: 65vw;
+    top: -7vw;
+  }
+
+  .colorimg3 {
+    position: absolute;
+    width: 23vw;
+    height: 29vw;
+    left: 86vw;
+    top: 35vw;
+    z-index: -1;
+  }
+
+  .whiteimg {
+    position: absolute;
+    width: 25vw;
+    height: 29.906vw;
+    left: 5vw;
+    top: 1vw;
+    transform: rotate(15deg);
+    z-index: -1;
+  }
+
+  .arrowimg1 {
+    position: absolute;
+    width: 1.5vw;
+    left: 50.087vw;
+    top: 52.539vw;
+    box-sizing: border-box;
+  }
+
+  .textblock3 {
+    position: absolute;
+    width: 16.992vw;
+    height: 2.051vw;
+    left: 41.504vw;
+    top: 66.016vw;
+
+    font-family: 'Akzidenz-Grotesk Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+  }
+
+  .cross1 {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    left: 4.711vw;
+    top: 20vw;
+    transform: rotate(24.24deg);
+  }
+
+  .cross2 {
+    position: absolute;
+    width: 3.906vw;
+    height: 3.906vw;
+    left: 44.043vw;
+    top: 9.321vw;
+
+    transform: rotate(-7.35deg);
+  }
+
+  .cross3 {
+    position: absolute;
+    width: 2.441vw;
+    height: 2.441vw;
+    left: 65.076vw;
+    top: 21.875vw;
+
+    transform: rotate(24.24deg);
+  }
+
+  .cross4 {
+    position: absolute;
+    width: 2.930vw;
+    height: 2.930vw;
+    left: 83.134vw;
+    top: 8.203vw;
+
+    transform: rotate(24.24deg);
+  }
+
+  .cross5 {
+    position: absolute;
+    width: 2.734vw;
+    height: 2.734vw;
+    left: 40.773vw;
+    top: 52.148vw;
+
+    transform: rotate(34.04deg);
+  }
+
+  .cross6 {
+    position: absolute;
+    width: 3vw;
+    height: 3vw;
+    left: 73.380vw;
+    top: 58.789vw;
+
+    transform: rotate(42.66deg);
+  }
+
+  .cross7 {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    left: 68.945vw;
+    top: 39.378vw;
+
+    transform: rotate(-4.54deg);
+  }
+
+  .figimg1 {
+    position: absolute;
+    width: 6.836vw;
+    height: 6.836vw;
+    left: 18vw;
+    top: 53.802vw;
+  }
+
+  .figimg2 {
+    position: absolute;
+    width: 5.859vw;
+    height: 5.859vw;
+    left: 54vw;
+    top: 4.931vw;
+  }
+
+  .figimg3 {
+    position: absolute;
+    width: 4.004vw;
+    height: 4.004vw;
+    left: 71vw;
+    top: 47.7vw;
+  }
+
+  .helpimg {
+    position: absolute;
+    width: 11.406vw;
+    height: 11.406vw;
+    left: 87.109vw;
+    top: 0.781vw;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* iPhone */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  /* iPhone Portrait */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+  /* iPhone Landscape */
+}

@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
+/* @import "responsive.css"; */
 
 * {
   box-sizing: border-box;
@@ -13,20 +14,10 @@ body {
   background: black;
   width: 100vw;
   height: 100%;
+  /* overflow: hidden; */
+
 }
 
-.1stscreen {
-  animation: scroll 1.5s linear;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0vw);
-  }
-  100% {
-    display: none;
-  }
-}
 
 .textblock1{
   position: absolute;
@@ -283,7 +274,7 @@ body {
 .whiteimg {
   position: absolute;
   left: 28px;
-  top: 0vw;
+  top: -6vw;
   z-index: -1;
 }
 
