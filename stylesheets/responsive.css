@@ -381,9 +381,16 @@
 and (max-device-width: 1024px)
 and (orientation: portrait) {
 
-  body {
-    overflow: hidden;
+
+  .screen1 {
+      margin: 0 auto;
+      background: black;
+      width: 768px;
+      height: 1024px;
+      position: absolute;
+      overflow: hidden;
   }
+
 
   .textblock1{
     position: absolute;
@@ -794,9 +801,13 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape) {
 
-  body {
-    width: 1024px;
-    height: 768px;
+  .screen1 {
+      margin: 0 auto;
+      background: black;
+      width: 1024px;
+      height: 768px;
+      position: absolute;
+      overflow: hidden;
   }
 
   .textblock1{
@@ -1189,6 +1200,15 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (orientation: portrait) {
 
+  .screen1 {
+      margin: 0 auto;
+      background: black;
+      width: 375px;
+      height: 812px;
+      position: absolute;
+      overflow: hidden;
+  }
+
   .textblock1{
     position: absolute;
     width: 261px;
@@ -1568,7 +1588,7 @@ and (orientation: portrait) {
     height: 11.406vw;
     left: 87.109vw;
     top: 0.781vw;
-}
+  }
 
 }
 
