@@ -384,7 +384,7 @@ and (orientation: portrait) {
 
   .screen1 {
       margin: 0 auto;
-      background: black;
+      /* background: black; */
       width: 768px;
       height: 1024px;
       position: absolute;
@@ -786,7 +786,7 @@ and (orientation: portrait) {
     position: absolute;
     width: 106px;
     height: 106px;
-    left: 633px;
+    left: 643px;
     top: 19px;
 
   }
@@ -803,7 +803,7 @@ and (orientation: landscape) {
 
   .screen1 {
       margin: 0 auto;
-      background: black;
+      /* background: black; */
       width: 1024px;
       height: 768px;
       position: absolute;
@@ -1202,9 +1202,9 @@ and (orientation: portrait) {
 
   .screen1 {
       margin: 0 auto;
-      background: black;
+      /* background: black; */
       width: 375px;
-      height: 812px;
+      height: 81px;
       position: absolute;
       overflow: hidden;
   }
@@ -1266,7 +1266,7 @@ and (orientation: portrait) {
     background: #F3A2BC;
     transform: rotate(20.32deg);
     border-radius: 50%;
-    z-index: -1;
+    z-index: 1;
   }
 
   .circle4 {
