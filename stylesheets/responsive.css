@@ -1,4 +1,38 @@
   /* Desktop */
+@media only screen and (min-width: 1280px)
+and (max-width: 1440px) {
+  .screen1 {
+      margin: 0 auto;
+      position: absolute;
+      overflow: hidden;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .screen1 {
+        margin: 0 auto;
+        /* background: black; */
+        width: 1440px;
+        height: 900px;
+        position: absolute;
+        overflow: hidden;
+    }
+  }
+
+@media only screen and (min-width: 1280px) {
+    .screen1 {
+        margin: 0 auto;
+        /* background: black; */
+        width: 1280px;
+        height: 800px;
+        position: absolute;
+        overflow: hidden;
+    }
+  }
+
 @media only screen and (min-width: 1450px)
 {
   .textblock1{
@@ -1204,7 +1238,7 @@ and (orientation: portrait) {
       margin: 0 auto;
       /* background: black; */
       width: 375px;
-      height: 81px;
+      height: 812px;
       position: absolute;
       overflow: hidden;
   }
@@ -1248,7 +1282,10 @@ and (orientation: portrait) {
     height: 140px;
     left: -42px;
     top: -27px;
-    background: #21B8EB;
+    /* background: #21B8EB; */
+
+    color: rgb(33,184,235);
+    z-index: 0;
   }
 
   .circle2 {
@@ -1266,7 +1303,7 @@ and (orientation: portrait) {
     background: #F3A2BC;
     transform: rotate(20.32deg);
     border-radius: 50%;
-    z-index: 1;
+    z-index: -2;
   }
 
   .circle4 {
@@ -1400,194 +1437,221 @@ and (orientation: portrait) {
     box-sizing: border-box;
   }
 
+  .circle116 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: -19px;
+    top: 730px;
+    border-radius: 50%;
+
+    background: #FFFFFF;
+  }
+
+  .circle117 {
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 294px;
+    top: 730px;
+    border-radius: 50%;
+    background: #21B8EB;
+  }
+
   .rectangle1 {
     position: absolute;
-    width: 1.699vw;
-    height: 18.521vw;
-    left: 12vw;
-    top: -6vw;
+    width: 9.19px;
+    height: 100.12px;
+    left: 360px;
+    top: 264.42px;
+
     background: #FFCCD6;
-    transform: matrix(-0.5, -0.86, -0.86, 0.5, 0, 0);
+    transform: matrix(0.29, -0.96, -0.96, -0.29, 0, 0);
   }
 
   .rectangle2{
     position: absolute;
-    width: 2.227vw;
-    height: 28.766vw;
-    left: 53vw;
-    top: -3.699vw;
+    width: 9.81px;
+    height: 126.74px;
+    left: 140px;
+    top: -17.17px;
+
     background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
-    transform: rotate(-29.2deg);
+    transform: rotate(-19.04deg);
   }
 
   .rectangle3 {
     position: absolute;
-    width: 2.525vw;
-    height: 23.269vw;
-    left: 95vw;
-    top: 8vw;
+    width: 10.99px;
+    height: 125.78px;
+    left: 360px;
+    top: 70px;
+
     background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
     transform: rotate(-46.87deg);
   }
 
   .colorimg1 {
     position: absolute;
-    width: 14vw;
-    height: 29.591vw;
-    left: 0vw;
-    top: 13vw;
+    width: 100px;
+    height: 159.96px;
+    left: 0px;
+    top: 380px;
   }
 
   .colorimg2 {
     position: absolute;
-    width: 25vw;
-    height: 35.049vw;
-    left: 65vw;
-    top: -7vw;
+    width: 140px;
+    height: 165.58px;
+    left: 220px;
+    top: -21px;
   }
 
   .colorimg3 {
     position: absolute;
-    width: 23vw;
-    height: 29vw;
-    left: 86vw;
-    top: 35vw;
+    width: 70px;
+    left: 335px;
+    top: 530px;
+    transform: rotate(-100deg);
     z-index: -1;
   }
 
   .whiteimg {
     position: absolute;
-    width: 25vw;
-    height: 29.906vw;
-    left: 5vw;
-    top: 1vw;
+    width: 150px;
+    height: 175.5px;
+    left: -25px;
+    top: 30px;
+
     transform: rotate(15deg);
     z-index: -1;
   }
 
   .arrowimg1 {
     position: absolute;
-    width: 1.5vw;
-    left: 50.087vw;
-    top: 52.539vw;
+    width: 12px;
+    left: 188px;
+    top: 533px;
     box-sizing: border-box;
   }
 
   .textblock3 {
     position: absolute;
-    width: 16.992vw;
-    height: 2.051vw;
-    left: 41.504vw;
-    top: 66.016vw;
+    width: 109px;
+    height: 13px;
+    left: 133px;
+    top: 690px;
 
     font-family: 'Akzidenz-Grotesk Pro';
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 21px;
-    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
 
+
+    color: #FFFFFF;
   }
 
   .cross1 {
     position: absolute;
-    width: 3vw;
-    height: 3vw;
-    left: 4.711vw;
-    top: 20vw;
+    width: 13.9px;
+    left: 44.93px;
+    top: 330px;
+
     transform: rotate(24.24deg);
   }
 
   .cross2 {
     position: absolute;
-    width: 3.906vw;
-    height: 3.906vw;
-    left: 44.043vw;
-    top: 9.321vw;
+    width: 15px;
+    left: 105px;
+    top: 25.38px;
 
     transform: rotate(-7.35deg);
   }
 
   .cross3 {
     position: absolute;
-    width: 2.441vw;
-    height: 2.441vw;
-    left: 65.076vw;
-    top: 21.875vw;
+    width: 12.83px;
+    height: 13.34px;
+    left: 324.48px;
+    top: 322px;
 
     transform: rotate(24.24deg);
   }
 
   .cross4 {
     position: absolute;
-    width: 2.930vw;
-    height: 2.930vw;
-    left: 83.134vw;
-    top: 8.203vw;
+    width: 13.97px;
+    height: 14.52px;
+    left: 286.75px;
+    top: 130px;
 
-    transform: rotate(24.24deg);
+    transform: rotate(61.41deg);
   }
 
   .cross5 {
     position: absolute;
-    width: 2.734vw;
-    height: 2.734vw;
-    left: 40.773vw;
-    top: 52.148vw;
+    width: 11.36px;
+    height: 11.8px;
+    left: 196.61px;
+    top: 270px;
 
     transform: rotate(34.04deg);
   }
 
   .cross6 {
     position: absolute;
-    width: 3vw;
-    height: 3vw;
-    left: 73.380vw;
-    top: 58.789vw;
+    width: 11.51px;
+    height: 11.96px;
+    left: 242.8px;
+    top: 546.85px;
 
     transform: rotate(42.66deg);
   }
 
   .cross7 {
     position: absolute;
-    width: 2vw;
-    height: 2vw;
-    left: 68.945vw;
-    top: 39.378vw;
+    width: 12.69px;
+    height: 13.19px;
+    left: 133px;
+    top: 483px;
 
     transform: rotate(-4.54deg);
   }
 
   .figimg1 {
     position: absolute;
-    width: 6.836vw;
-    height: 6.836vw;
-    left: 18vw;
-    top: 53.802vw;
+    width: 42.57px;
+    height: 42.57px;
+    left: 35px;
+    top: 655px;
   }
 
   .figimg2 {
     position: absolute;
-    width: 5.859vw;
-    height: 5.859vw;
-    left: 54vw;
-    top: 4.931vw;
+    width: 25.75px;
+    height: 25.75px;
+    left: 145px;
+    top: 17px;
+    transform: rotate(13deg);
   }
 
   .figimg3 {
     position: absolute;
-    width: 4.004vw;
-    height: 4.004vw;
-    left: 71vw;
-    top: 47.7vw;
+    width: 28.45px;
+    height: 28.45px;
+    left: 310px;
+    top: 450px;
   }
 
   .helpimg {
     position: absolute;
-    width: 11.406vw;
-    height: 11.406vw;
-    left: 87.109vw;
-    top: 0.781vw;
+    width: 70.22px;
+    height: 70.22px;
+    left: 300px;
+    top: 5px;
   }
 
 }
