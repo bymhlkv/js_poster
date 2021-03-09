@@ -1,12 +1,12 @@
   /* Desktop */
-@media only screen and (min-width: 1280px)
+/* @media only screen and (min-width: 1280px)
 and (max-width: 1440px) {
   .screen1 {
       margin: 0 auto;
       position: absolute;
       overflow: hidden;
   }
-}
+} */
 
 
 
@@ -22,16 +22,15 @@ and (max-width: 1440px) {
     }
   }
 
-@media only screen and (min-width: 1280px) {
+/* @media only screen and (min-width: 1280px) {
     .screen1 {
         margin: 0 auto;
-        /* background: black; */
         width: 1280px;
         height: 800px;
         position: absolute;
         overflow: hidden;
     }
-  }
+  } */
 
 @media only screen and (min-width: 1450px)
 {
