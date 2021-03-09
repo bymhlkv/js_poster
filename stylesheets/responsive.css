@@ -1544,8 +1544,8 @@ and (orientation: portrait) {
     font-family: 'Akzidenz-Grotesk Pro';
     font-style: normal;
     font-weight: normal;
-    font-size: 90px;
-    /* line-height: 13px; */
+    font-size: 2.667vw;
+    line-height: 13px;
     /* identical to box height */
 
 
