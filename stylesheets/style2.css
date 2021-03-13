@@ -239,12 +239,12 @@ body {
 
 .circle17a{
   position: absolute;
-  width: 498px;
-  height: 498px;
-  left: -48px;
-  top: -189px;
+  width: 34.583vw;
+  height: 34.583vw;
+  left: -3.333vw;
+  top: -3.333vw;
   border-radius: 50%;
-  border: 10px solid #FFEC51;
+  border: 0.694vw solid #FFEC51;
   box-sizing: border-box;
 }
 
