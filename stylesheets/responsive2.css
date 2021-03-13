@@ -144,3 +144,288 @@ and (orientation: landscape) {
 
 
 }
+
+
+/* iPad Portrait */
+@media only screen and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+
+  .screen2 {
+    width: 768px;
+    height: 1024px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0vw;
+  }
+
+  .helpimg1a {
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    left: 88vw;
+  }
+
+  .circle1a {
+    left: 6.5vw;
+    top: 16vw;
+  }
+
+  .circle2a {
+    left: 31vw;
+    top: 5.486vw;
+  }
+
+  .circle3a {
+    left: 53vw;
+    top: 12.292vw;
+  }
+
+  .circle4a {
+    left: 62vw;
+    top: 23vw;
+  }
+
+  .circle5a {
+    left: 68.403vw;
+    top: 3vw;
+  }
+
+  .circle6a {
+    left: 87vw;
+    top: -4vw;
+  }
+
+  .circle8a {
+    width: 35vw;
+    height: 35vw;
+    left: 80vw;
+    top: 28vw;
+  }
+
+  .circle9a {
+    left: 48.056vw;
+    top: 45vw;
+  }
+
+  .circle10a {
+    left: 6vw;
+    top: 32vw;
+  }
+
+  .circle11a{
+    width: 30vw;
+    height: 30vw;
+    left: 15vw;
+    top: 105vw;
+  }
+
+  .circle12a{
+    width: 15vw;
+    height: 15vw;
+    left: 7vw;
+    top: 100vw;
+  }
+
+  .circle13a{
+    left: 15vw;
+    top: 60vw;
+  }
+
+  .circle14a{
+    left: 55vw;
+    top: 65vw;
+  }
+
+  .circle15a{
+    left: 50vw;
+    top: 75vw;
+  }
+
+  .circle16a{
+    left: 82.153vw;
+    top: 85vw;
+  }
+
+  .circle17a{
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    left: -3.333vw;
+    top: -15vw;
+  }
+
+
+  .circle18a{
+    left: 30vw;
+    top: 55vw;
+  }
+
+  .circle19a{
+    width: 40vw;
+    height: 40vw;
+    left: 65vw;
+    top: 105vw;
+  }
+
+  .rectangle1a{
+    width: 3vw;
+    height: 24.861vw;
+    left: 5vw;
+    top: 75vw;
+    transform: rotate(-99.42deg);
+  }
+
+  .rectangle2a{
+    position: absolute;
+    width: 2.876vw;
+    height: 36.227vw;
+    left: 43vw;
+    top: 115.257vw;
+
+    background: #F3A2BC;
+    transform: matrix(-0.8, -0.6, -0.6, 0.8, 0, 0);
+  }
+
+  .rectangle3a{
+    position: absolute;
+    width: 2.876vw;
+    height: 36.227vw;
+    left: 55vw;
+    top: 42.079vw;
+
+    background: #FFCCD6;
+    transform: matrix(-0.8, -0.6, -0.6, 0.8, 0, 0);
+  }
+
+  .rectangle4a{
+    position: absolute;
+    width: 2.876vw;
+    height: 25.294vw;
+    left: 10vw;
+    top: 109vw;
+    background: #FFCCD6;
+    transform: matrix(0.27, -0.96, -0.96, -0.27, 0, 0);
+  }
+
+  .rectangle5a{
+    width: 2.681vw;
+    height: 46.615vw;
+    left: 82vw;
+    top: 94vw;
+    transform: rotate(-79.64deg);
+  }
+
+  .rectangle6a{
+    width: 1.663vw;
+    height: 35vw;
+    left: 79vw;
+    top: -3.809vw;
+    transform: rotate(35.52deg);
+  }
+
+  .colorimg1a {
+    width: 11vw;
+    left: -4.167vw;
+    top: 25vw;
+    transform: rotate(-45deg);
+  }
+
+  .colorimg2a {
+    width: 45.573vw;
+    left: 75.521vw;
+    top: 80vw;
+    z-index: -1;
+  }
+
+  .colorimg3a {
+    position: absolute;
+    width: 30vw;
+    left: 33vw;
+    top: -3.472vw;
+  }
+
+  .colorimg4a {
+    position: absolute;
+    width: 35vw;
+    left: 77vw;
+    top: 30vw;
+    transform: rotate(-25deg);
+  }
+
+  .whiteimg1 {
+    position: absolute;
+    width: 40vw;
+    left: 12.222vw;
+    top: 70vw;
+    z-index: 1;
+  }
+
+  .whiteimg2 {
+    width: 50vw;
+    left: 20vw;
+    top: 25vw;
+  }
+
+
+
+  .cross3a{
+    width: 4vw;
+    left: 3.454vw;
+    top: 68vw;
+  }
+
+  .cross4a{
+    width: 5vw;
+    left: 40vw;
+    top: 26.528vw;
+  }
+
+  .cross5a{
+    width: 3.564vw;
+    left: 17.997vw;
+    top: 45vw;
+  }
+
+  .cross6a{
+    width: 3vw;
+    left: 60vw;
+    top: 3vw;
+  }
+
+  .cross7a{
+    width: 4vw;
+    left: 86vw;
+    top: 13vw;
+  }
+
+  .cross8a{
+    width: 4vw;
+    left: 88vw;
+    top: 54vw;
+  }
+
+  .cross9a{
+    width: 4vw;
+    left: 60vw;
+    top: 100vw;
+  }
+
+  .figimg1a {
+    width: 21vw;
+    top: 15vw;
+  }
+
+  .figimg2a {
+    width: 15vw;
+    left: 57vw;
+    top: 67vw;
+  }
+
+  .figimg3a {
+    width: 34vw;
+    left: 80vw;
+    top: 27vw;
+  }
+
+}
