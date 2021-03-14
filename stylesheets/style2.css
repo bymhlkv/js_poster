@@ -13,7 +13,7 @@ body {
   background: black;
   width: 100vw;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
 }
 
@@ -55,7 +55,7 @@ body {
   position: absolute;
   width: 9.861vw;
   height: 9.861vw;
-  left: 92vw;
+  left: 89.5vw;
   top: 0vw;
 }
 
@@ -488,4 +488,149 @@ body {
   top: 2.500vw;
 
   transform: rotate(24.24deg);
+}
+
+.infoimg1 {
+  position: absolute;
+  width: 49.492vw;
+  height: 38.580vw;
+  left: 25.278vw;
+  top: 7.986vw;
+  z-index: 3;
+}
+
+.backgroundrec1 {
+  position: absolute;
+  top: 0px;
+  width: 142.857vw;
+  height: 85.714vw;
+  opacity: 70%;
+  background: #000000;
+  z-index: 2;
+}
+
+.okbotton1 {
+  position: absolute;
+  width: 8.214vw;
+  height: 8.214vw;
+  left: 47.357vw;
+  top: 47.856vw;
+  background: #FFFFFF;
+  z-index: 3;
+  border-radius: 50%;
+}
+
+.oktext1 {
+  position: absolute;
+  width: 3.429vw;
+  height: 2.286vw;
+  left: 49.714vw;
+  top: 50.856vw;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-stretch: expanded;
+  font-weight: 400;
+  font-size: 1.786vw;
+  line-height: 2.286vw;
+  text-align: center;
+  color: #000000;
+  z-index: 3;
+
+}
+
+.infoimg2 {
+  position: absolute;
+  width: 43.761vw;
+  height: 34.068vw;
+  left: 28.184vw;
+  top: 7.540vw;
+  z-index: 3;
+}
+
+.backgroundrec2 {
+  position: absolute;
+  width: 107.467vw;
+  height: 70vw;
+  left: -3.294vw;
+  top: -0.878vw;
+  opacity: 70%;
+  background: #000000;
+  z-index: 2;
+}
+
+.okbotton2 {
+  position: absolute;
+  width: 7.052vw;
+  height: 7.052vw;
+  left: 46.486vw;
+  top: 41.581vw;
+  background: #FFFFFF;
+  z-index: 3;
+  border-radius: 50%;
+}
+
+.oktext2 {
+  position: absolute;
+  width: 3.075vw;
+  height: 2.050vw;
+  left: 48.536vw;
+  top: 44.070vw;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-size: 1.611vw;
+  line-height: 2.050vw;
+  text-align: center;
+  color: #000000;
+  z-index: 3;
+}
+
+.infoimg3 {
+  position: absolute;
+  width: 91.133vw;
+  height: 71vw;
+  left: 4.533vw;
+  top: 65.333vw;
+  z-index: 3;
+}
+
+.backgroundrec3 {
+  position: absolute;
+  top: 0vw;
+  width: 150vw;
+  height: 300vw;
+  background: #000000;
+  z-index: 2;
+  opacity: 70%;
+}
+
+.okbotton3 {
+  position: absolute;
+  width: 14.696vw;
+  height: 14.696vw;
+  left: 42.675vw;
+  top: 136.277vw;
+  background: #FFFFFF;
+  z-index: 2;
+  border-radius: 50%;
+}
+
+.oktext3 {
+  position: absolute;
+  width: 29px;
+  height: 19px;
+  left: 174.05px;
+  top: 530.49px;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+
+  color: #000000;
+  z-index: 3;
 }
