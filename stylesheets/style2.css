@@ -634,3 +634,13 @@ body {
   color: #000000;
   z-index: 3;
 }
+
+.bubble2 {
+  position: absolute;
+  width: 410.04px;
+  height: 372.86px;
+  left: 1100px;
+  top: 400px;
+  transform: rotate(30deg);
+  z-index: 2;
+}

@@ -1,5 +1,5 @@
 @media only screen
-and (min-device-width: 1440px)
+and (min-device-width: 1441px)
 and (max-device-width: 1680px)
 and (orientation: landscape) {
 
@@ -14,6 +14,29 @@ and (orientation: landscape) {
 
 
 }
+
+@media only screen
+and (min-device-width: 1440px)
+and (orientation: landscape) {
+  body {
+    margin: 0 auto;
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    overflow-x: hidden;
+  }
+
+  .screen2 {
+    top: 0vw;
+    left: 0vw;
+    margin: 0 auto;
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+  }
+}
+
+
 
 
 
