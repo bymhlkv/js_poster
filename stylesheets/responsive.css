@@ -1,29 +1,67 @@
   /* Desktop */
-/* @media only screen and (min-width: 1280px)
-and (max-width: 1440px) {
-  .screen1 {
-      margin: 0 auto;
-      position: absolute;
-      overflow: hidden;
+
+/* @media only screen and (min-width: 1679px) {
+
+  body {
+    margin: 0 auto;
+    position: absolute;
+    width: 1680px;
+    height: 1050px
+  }
+  .screen1{
+    width: 1680px;
+    height: 1050px
+    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
   }
 } */
 
 
 
 
+@media only screen and (min-width: 1280px)
+and (max-width: 1285px) {
 
-
-/* @media only screen and (min-width: 1280px) {
+  body {
+      margin: 0 auto;
+      width: 1280px;
+      height: 800px;
+      position: absolute;
+      overflow: hidden;
+  }
     .screen1 {
+        top: 0vw;
         margin: 0 auto;
         width: 1280px;
         height: 800px;
         position: absolute;
         overflow: hidden;
     }
-  } */
+  }
+
+  @media only screen and (min-width: 1366px)
+  and (max-width: 1368px) {
+
+    body {
+        margin: 0 auto;
+        width: 1366px;
+        height: 900px;
+        position: absolute;
+        overflow: hidden;
+    }
+      .screen1 {
+          top: 0vw;
+          margin: 0 auto;
+          width: 1366px;
+          height: 900px;
+          position: absolute;
+          overflow: hidden;
+      }
+    }
 
 @media only screen and (min-width: 1450px)
+
 {
   .textblock1{
     position: absolute;
@@ -406,13 +444,20 @@ and (max-device-width: 1024px)
 and (orientation: portrait) {
 
 
-  .screen1 {
+  .body {
       margin: 0 auto;
-      /* background: black; */
       width: 768px;
       height: 1024px;
       position: absolute;
-      overflow: hidden;
+
+  }
+
+  .screen1 {
+    top: 0vw;
+    overflow: hidden;
+    width: 768px;
+    height: 1024px;
+    position: absolute;
   }
 
 
@@ -825,13 +870,19 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape) {
 
-  .screen1 {
+  body {
       margin: 0 auto;
-      /* background: black; */
       width: 1024px;
       height: 768px;
       position: absolute;
-      overflow: hidden;
+  }
+
+  .screen1 {
+    top: 0px;
+    overflow: hidden;
+    width: 1024px;
+    height: 768px;
+    position: absolute;
   }
 
   .textblock1{
@@ -1224,13 +1275,19 @@ and (min-device-width: 320px)
 and (max-device-width: 480px)
 and (orientation: portrait) {
 
-  .screen1 {
+  .body {
       margin: 0 auto;
-      /* background: black; */
       width: 375px;
       height: 812px;
       position: absolute;
-      overflow: hidden;
+  }
+
+  .screen1 {
+    top: 0px;
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    position: absolute;
   }
 
   .textblock1{
@@ -1647,7 +1704,25 @@ and (orientation: portrait) {
 }
 
 
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
   /* iPhone Landscape */
+@media only screen and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation: landscape) {
+
+  body {
+    margin: 0 auto;
+    width: 812px;
+    height: 375px;
+    position: absolute;
+  }
+
+  .screen1 {
+    top: 0px;
+    overflow: hidden;
+    width: 812px;
+    height: 375px;
+    position: absolute;
+  }
+
+
 }
