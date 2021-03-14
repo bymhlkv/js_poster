@@ -14,17 +14,18 @@ body {
   background: black;
   width: 100vw;
   height: 100%;
+  position: absolute;
 }
 
-.screen1 {
+/* .screen1 {
     margin: 0 auto;
     width: 1440px;
     height: 900px;
     position: absolute;
-    /* overflow: hidden; */
-}
+    overflow: hidden;
+} */
 
-.screen1animation {
+/* .screen1animation {
 
     animation: 1.5s linear scroll;
 }
@@ -36,7 +37,7 @@ body {
   100% {
     transform: translateY(-100vw);
   }
-}
+} */
 
 
 
