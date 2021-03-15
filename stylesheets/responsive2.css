@@ -629,6 +629,14 @@ body {
   margin: 0 auto;
 }
 
+.screen2 {
+  width: 375px;
+  height: 812px;
+  position: absolute;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
 .text1a {
   width: 42.133vw;
   height: 10.133vw;
