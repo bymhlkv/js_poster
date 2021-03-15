@@ -1,0 +1,274 @@
+@import "reset.css";
+@import "fonts.css";
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'AkzidenzGroteskPro';
+  margin: 0 auto;
+  background: black;
+  width: 100vw;
+  height: 100%;
+  /* overflow: hidden; */
+  position: absolute;
+}
+
+.main_text {
+  position: absolute;
+  width: 65.694vw;
+  height: 15.972vw;
+  left: 17.014vw;
+  top:20.972vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-size: 8.333vw;
+  line-height: 96%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
+.main_text2{
+  position: absolute;
+  width: 35.625vw;
+  height: 2.014vw;
+  left: 32.083vw;
+  top: 37.639vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: expanded;
+  font-size: 2.083vw;
+  line-height: 96%;
+
+
+  color: #FFFFFF;
+}
+
+.circle1b {
+  position: absolute;
+  width: 18.264vw;
+  height: 18.264vw;
+  left: 9.722vw;
+  top: 30.833vw;
+  background: #21B8EB;
+  border-radius: 50%;
+}
+
+.circle2b {
+  position: absolute;
+  width: 9.444vw;
+  height: 9.444vw;
+  left: 17.083vw;
+  top: 42.500vw;
+  background: #FFEC51;
+  border-radius: 50%;
+}
+
+.circle3b {
+  position: absolute;
+  width: 26.597vw;
+  height: 26.597vw;
+  left: 59.028vw;
+  top: -9.583vw;
+  background: #FFCCD6;
+  border-radius: 50%;
+}
+
+.circle4b {
+  position: absolute;
+  width: 5.694vw;
+  height: 5.694vw;
+  left: 62.014vw;
+  top: 10.556vw;
+  background: #FFEC51;
+  border-radius: 50%;
+}
+
+.circle5b {
+  position: absolute;
+  width: 9.583vw;
+  height: 9.583vw;
+  left: 87.153vw;
+  top: 9.653vw;
+  background: #F3A2BC;
+  border-radius: 50%;
+}
+
+.circle6b {
+  position: absolute;
+  width: 13.403vw;
+  height: 13.403vw;
+  left: 91.944vw;
+  top: 27.292vw;
+  background: #FFEC51;
+  border-radius: 50%;
+}
+
+.circle7b {
+  position: absolute;
+  width: 6.944vw;
+  height: 6.944vw;
+  left: 94.583vw;
+  top: 23.472vw;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.circle8b {
+  position: absolute;
+  width: 11.944vw;
+  height: 11.944vw;
+  left: 90.764vw;
+  top: 52.708vw;
+  background: #21B8EB;
+  border-radius: 50%;
+}
+
+.circle9b {
+  position: absolute;
+  width: 11.806vw;
+  height: 11.806vw;
+  left: -5.278vw;
+  top: 51.250vw;
+  border: 0.694vw solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.helpimg1b {
+  position: absolute;
+  left: 88.12%;
+  right: 2.01%;
+  top: -0.33%;
+  bottom: 84.56%;
+  z-index: 1;
+}
+
+.whiteimg1b {
+  position: absolute;
+  left: 0vw;
+  top: -0.972vw;
+}
+
+.whiteimg2b {
+  position: absolute;
+  left: 70.833vw;
+  top: 30.208vw;
+}
+
+.colorimg1b{
+  position: absolute;
+  left: 5.486vw;
+  top: 17.014vw;
+  z-index: -1;
+}
+
+.colorimg2b{
+  position: absolute;
+  left: 73.264vw;
+  top: 0vw;
+}
+
+.colorimg3b{
+  position: absolute;
+  left: 31.944vw;
+  top: 42.500vw;
+}
+
+.rectangle1b {
+  position: absolute;
+  width: 2.951vw;
+  height: 19.321vw;
+  left: 0vw;
+  top: 48.982vw;
+
+  background: #FFCCD6;
+  transform: matrix(-0.8, -0.6, -0.6, 0.8, 0, 0);
+}
+
+.rectangle2b {
+  position: absolute;
+  width: 2.983vw;
+  height: 30.010vw;
+  left: 26.389vw;
+  top: -8.333vw;
+
+  background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
+  transform: rotate(-46.87deg);
+}
+
+.figimg1b {
+  position: absolute;
+  width: 6.776vw;
+  left: 9.722vw;
+  top: 50.694vw;
+  transform: rotate(83.66deg);
+}
+
+.figimg2b {
+  position: absolute;
+  width: 10.417vw;
+  left: 88%;
+  right: 4.19%;
+  top: 75%;
+  bottom: -6.7%;
+}
+
+.cross1b {
+  position: absolute;
+  width: 5.822vw;
+  left: 16.998vw;
+  top: 33.542vw;
+  transform: rotate(24.24deg);
+}
+
+.cross2b {
+  position: absolute;
+  width: 3.382vw;
+  left: 88.056vw;
+  top: 24.087vw;
+  transform: rotate(-4.54deg);
+}
+
+.cross3b {
+  position: absolute;
+  width: 3.564vw;
+  left: 63.813vw;
+  top: 54.306vw;
+  transform: rotate(24.24deg);
+}
+
+.cross4b {
+  position: absolute;
+  width: 3.579vw;
+  left: 63.681vw;
+  top: 3.374vw;
+  transform: rotate(-7.35deg);
+}
+
+.cross5b {
+  position: absolute;
+  width: 2.597vw;
+  left: 27.080vw;
+  top: 54.653vw;
+  transform: rotate(24.24deg);
+}
+
+.cross6b {
+  position: absolute;
+  width: 2.322vw;
+  left: 85.297vw;
+  top: 39.722vw;
+  transform: rotate(24.24deg);
+}
