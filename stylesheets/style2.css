@@ -635,12 +635,47 @@ body {
   z-index: 3;
 }
 
+.bubble1 {
+  position: absolute;
+  width: 31.371vw;
+  left: 17vw;
+  top: 29.5vw;
+  transform: rotate(-0.02deg);
+  z-index: 2;
+}
+
 .bubble2 {
   position: absolute;
-  width: 410.04px;
-  height: 372.86px;
-  left: 1100px;
-  top: 400px;
+  width: 29.289vw;
+  left: 74.5vw;
+  top: 28vw;
   transform: rotate(30deg);
+  z-index: 2;
+}
+
+.bubble3 {
+  position: absolute;
+  width: 18.286vw;
+  left: 29vw;
+  top: 0.714vw;
+  transform: rotate(-77.69deg);
+  z-index: 2;
+}
+
+.bubble4 {
+  position: absolute;
+  width: 21vw;
+  left: 39vw;
+  top: 22vw;
+  transform: rotate(-63.64deg);
+  z-index: 2;
+}
+
+.bubble5 {
+  position: absolute;
+  width: 21.286vw;
+  left: 62vw;
+  top: 8vw;
+  transform: rotate(-13.02deg);
   z-index: 2;
 }
