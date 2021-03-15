@@ -1,5 +1,5 @@
 @media only screen
-and (min-device-width: 1441px)
+and (min-device-width: 1443px)
 and (max-device-width: 1681px)
 and (orientation: landscape) {
 
@@ -41,23 +41,23 @@ and (orientation: landscape) {
 }
 
 @media only screen
-and (min-device-width: 1440px)
-and (orientation: landscape) {
+and (max-device-width: 1440px) {
   body {
     margin: 0 auto;
     position: absolute;
     width: 1440px;
     height: 900px;
-    overflow-x: hidden;
+    top: 0vw;
+    left: 0vw;
   }
 
   .screen2 {
-    top: 0vw;
-    left: 0vw;
-    margin: 0 auto;
     position: absolute;
     width: 1440px;
     height: 900px;
+    overflow: hidden;
+    top: 0vw;
+    left: 0vw;
   }
 }
 
@@ -77,6 +77,14 @@ and (orientation: landscape) {
     height: 768px;
     overflow: hidden;
     position: absolute;
+    margin: 0 auto;
+  }
+
+  .screen2 {
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    overflow: hidden;
     margin: 0 auto;
   }
 
@@ -273,6 +281,14 @@ and (orientation: portrait) {
     overflow: hidden;
     position: absolute;
     margin-top: 0vw;
+  }
+
+  .screen2 {
+    width: 768px;
+    height: 1024px;
+    position: absolute;
+    overflow: hidden;
+    margin: 0 auto;
   }
 
   .helpimg1a {
