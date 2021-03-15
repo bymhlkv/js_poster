@@ -653,13 +653,17 @@ body {
   margin: 0 auto;
 }
 
-.text1a {
+/* .text1a {
   width: 42.133vw;
   height: 10.133vw;
   left: 4.533vw;
   top: 5.067vw;
   font-size: 5.333vw;
   line-height: 96%;
+} */
+
+.text1a {
+display: none;
 }
 
 .text2a {
