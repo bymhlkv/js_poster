@@ -303,6 +303,15 @@ and (orientation: landscape) {
 
     transform: rotate(24.24deg);
   }
+
+  .chooseimgs {
+    position: absolute;
+    top: 50px;
+  }
+
+  .choosetext {
+    top: 200px;
+  }
 }
 
 
@@ -611,6 +620,85 @@ and (orientation: portrait) {
     transform: rotate(24.24deg);
   }
 
+  .choosetext {
+    position: absolute;
+    width: 432px;
+    height: 45px;
+    left: 169px;
+    top: 325px;
+
+
+    font-family: 'Akzidenz-Grotesk Pro';'
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: expanded;
+    font-size: 35px;
+    line-height: 4.028vw;
+    color: #FFFFFF;
+
+    z-index: 3;
+  }
+
+  .closeimg {
+    position: absolute;
+    width: 41.99px;
+    left: 715.69px;
+    top: 19px;
+  }
+
+  .chooseimg1 {
+    position: absolute;
+    width: 85.14px;
+    height: 83.47px;
+    left: 162.08px;
+    top: 459.41px;
+  }
+
+  .chooseimg2 {
+    position: absolute;
+    width: 105.57px;
+    height: 98.56px;
+    left: 329.8px;
+    top: 462.81px;
+
+  }
+
+  .chooseimg3 {
+    position: absolute;
+    width: 105.57px;
+    height: 103.09px;
+    left: 504.32px;
+    top: 456px;
+
+  }
+
+  .chooseimg4 {
+    position: absolute;
+    width: 113.65px;
+    height: 103.19px;
+    left: 154px;
+    top: 579.45px;
+
+  }
+
+  .chooseimg5 {
+    position: absolute;
+    width: 86.84px;
+    height: 86.84px;
+    left: 342.57px;
+    top: 596.47px;
+  }
+
+  .chooseimg6 {
+    position: absolute;
+    width: 120.89px;
+    height: 102.48px;
+    left: 494.11px;
+    top: 597.32px;
+  }
+
+
+
 }
 
 
@@ -912,6 +1000,95 @@ body {
   top: 712px;
 
   transform: rotate(24.24deg);
+}
+
+.backgroundrec4{
+  position: absolute;
+  width: 483px;
+  height: 900px;
+  left: -42px;
+  top: -44px;
+
+}
+
+.choosetext {
+  position: absolute;
+  width: 247px;
+  height: 26px;
+  left: 64px;
+  top: 254px;
+
+
+  font-family: 'Akzidenz-Grotesk Pro';'
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: expanded;
+  font-size: 20px;
+  line-height: 4.028vw;
+  color: #FFFFFF;
+
+  z-index: 3;
+}
+
+.closeimg {
+  position: absolute;
+  width: 35.7px;
+  height: 35.7px;
+  left: 327.24px;
+  top: 24px;
+
+}
+
+.chooseimg1 {
+  position: absolute;
+  width: 52.82px;
+  height: 51.79px;
+  left: 103px;
+  top: 328px;
+
+}
+
+.chooseimg2 {
+  position: absolute;
+  width: 65.49px;
+  height: 61.15px;
+  left: 97px;
+  top: 494px;
+
+}
+
+.chooseimg3 {
+  position: absolute;
+  width: 65.49px;
+  height: 63.96px;
+  left: 97px;
+  top: 400px;
+
+}
+
+.chooseimg4 {
+  position: absolute;
+  width: 70.51px;
+  height: 64.02px;
+  left: 205px;
+  top: 493px;
+
+}
+
+.chooseimg5 {
+  position: absolute;
+  width: 53.87px;
+  height: 53.87px;
+  left: 213px;
+  top: 327px;
+}
+
+.chooseimg6 {
+  position: absolute;
+  width: 75px;
+  height: 63.58px;
+  left: 203px;
+  top: 400px;
 }
 
 
