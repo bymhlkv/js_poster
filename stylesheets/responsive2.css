@@ -1,6 +1,6 @@
 @media only screen
 and (min-device-width: 1441px)
-and (max-device-width: 1680px)
+and (max-device-width: 1681px)
 and (orientation: landscape) {
 
 
@@ -11,6 +11,31 @@ and (orientation: landscape) {
   .screen3-3 {
     display: none
   }
+
+  /* .bubble1 {
+    left: 17vw;
+    top: 29vw;
+  }
+
+  .bubble2 {
+    left: 75vw;
+    top: 28vw;
+  }
+
+  .bubble3 {
+    left: 28.5vw;
+    top: 0.714vw;
+  }
+
+  .bubble4 {
+    left: 39vw;
+    top: 22vw;
+  }
+
+  .bubble5 {
+    left: 63vw;
+    top: 8vw;
+  } */
 
 
 }
@@ -54,6 +79,7 @@ and (orientation: landscape) {
     position: absolute;
     margin: 0 auto;
   }
+
 
   .circle1a {
     left: 6.5vw;
@@ -224,6 +250,10 @@ and (orientation: landscape) {
   .oktext2 {
     left: 47.2vw;
     top: 58.2vw;
+  }
+
+  .bubble5 {
+    display: none;
   }
 
 
@@ -544,6 +574,41 @@ and (orientation: portrait) {
   .oktext2 {
     left: 45.8vw;
     top: 93.5vw;
+  }
+
+  .bubble1 {
+    position: absolute;
+    width: 343px;
+    left: 140px;
+    top: 280px;
+    transform: rotate(60deg);
+
+  }
+
+  .bubble2 {
+    position: absolute;
+    width: 415px;
+    height: 402px;
+    left: 330px;
+    top: 100px;
+    transform: rotate(7.11deg);
+
+  }
+
+  .bubble3 {
+    position: absolute;
+    width: 30vw;
+    left: 32vw;
+    top: 78vw;
+    transform: rotate(-20deg);
+  }
+
+  .bubble4 {
+    display: none;
+  }
+
+  .bubble5 {
+    display: none;
   }
 
 
@@ -877,6 +942,38 @@ body {
 .screen3-2 {
   display: none
 }
+
+.bubble1 {
+  width: 60vw;
+  left: 15vw;
+  top: 135vw;
+
+}
+
+.bubble2 {
+  width: 60vw;
+  left: 33vw;
+  top: 10vw;
+  transform: rotate(7.11deg);
+
+}
+
+.bubble3 {
+  display: none;
+}
+
+.bubble4 {
+  width: 30vw;
+  left: 29vw;
+  top: 55vw;
+  transform: rotate(-70deg);
+  z-index: 2;
+}
+
+.bubble5 {
+  display: none;
+}
+
 
 
 
