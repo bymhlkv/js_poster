@@ -93,7 +93,7 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("#cross4a").on('click', function(){
+  $("#cross2a").on('click', function(){
     $('#bubble5').toggle();
   });
 });
