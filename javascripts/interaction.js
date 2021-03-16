@@ -6,6 +6,11 @@ $(function() {
   $(".circle1, .circle2, .circle3, .circle4, .circle5, .circle6, .circle7, .circle8, .circle9, .circle10, .circle11, .circle12, .circle13, .circle14, .circle15, .circle16, .circle117, .rectangle1, .rectangle2, .rectangle3, .colorimg1, .colorimg2, .colorimg3, .whiteimg, .cross1, .cross2, .cross3, .cross4, .cross5, .cross6, .cross7, .cross8, .figimg1, .figimg2, .figimg3").draggable();
 });
 
+$(function() {
+  $("#bubble1, #bubble2, #bubble3, #bubble4, #bubble5").draggable();
+});
+
+
 
 $(document).ready(function(){
   $('#screen3_1').hide();
