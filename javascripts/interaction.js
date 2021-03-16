@@ -12,6 +12,43 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('#screen3_3').hide();
 });
+$(document).ready(function(){
+  $('#screen3_1').hide();
+});
+$(document).ready(function(){
+  $('#screen3_2').hide();
+});
+$(document).ready(function(){
+  $('#screen3_3').hide();
+});
+$(document).ready(function(){
+  $('#screen2').hide();
+});
+
+
+
+$(document).ready(function(){
+  $("#helpimg1a").on('click', function(){
+    $('#screen3_2').show();
+  });
+});
+$(document).ready(function(){
+  $("#okbotton_main").on('click', function(){
+    $('#screen3_2').hide();
+  });
+});
+
+$(document).ready(function(){
+  $("#helpimg1").on('click', function(){
+    $('#screen3_2').show();
+  });
+});
+$(document).ready(function(){
+  $("#okbotton_main").on('click', function(){
+    $('#screen3_2').hide();
+  });
+});
+
 
 
 $(document).ready(function(){
@@ -32,19 +69,6 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-  $("#helpimg1a").on('click', function(){
-    $('#screen3_2').show();
-  });
-});
-$(document).ready(function(){
-  $("#okbotton_main").on('click', function(){
-    $('#screen3_2').hide();
-  });
-});
-
-
-
-$(document).ready(function(){
   $("#cross5a").on('click', function(){
     $('#bubble1').toggle();
   });
@@ -59,8 +83,13 @@ $(document).ready(function(){
     $('#bubble3').toggle();
   });
 });
-// $(document).ready(function(){
-//   $("#cross9a").on('click', function(){
-//     $('#bubble3').toggle();
-//   });
-// });
+$(document).ready(function(){
+  $("#cross4a").on('click', function(){
+    $('#bubble4').toggle();
+  });
+});
+$(document).ready(function(){
+  $("#cross4a").on('click', function(){
+    $('#bubble5').toggle();
+  });
+});
