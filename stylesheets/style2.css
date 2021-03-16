@@ -679,3 +679,19 @@ body {
   transform: rotate(-13.02deg);
   z-index: 2;
 }
+
+.screen3-1 {
+  display: none;
+}
+
+.hidden {
+  opacity: 0%;
+}
+
+.blocker {
+  display: none;
+}
+
+/* .screen3a2 {
+  display: none;
+} */
