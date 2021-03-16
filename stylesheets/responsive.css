@@ -30,14 +30,14 @@ and (max-width: 1285px) {
       position: absolute;
       overflow: hidden;
   }
-    .screen1 {
+    /* .screen1 {
         top: 0vw;
         margin: 0 auto;
         width: 1280px;
         height: 800px;
         position: absolute;
         overflow: hidden;
-    }
+    } */
   }
 
   @media only screen
@@ -87,14 +87,14 @@ and (max-device-width: 1440px) {
         position: absolute;
         overflow: hidden;
     }
-      .screen1 {
+      /* .screen1 {
           top: 0vw;
           margin: 0 auto;
           width: 1366px;
           height: 900px;
           position: absolute;
           overflow: hidden;
-      }
+      } */
     }
 
 @media only screen and (min-width: 1450px)
@@ -489,13 +489,13 @@ and (orientation: portrait) {
 
   }
 
-  .screen1 {
+  /* .screen1 {
     top: 0vw;
     overflow: hidden;
     width: 768px;
     height: 1024px;
     position: absolute;
-  }
+  } */
 
 
   .textblock1{
@@ -1258,13 +1258,13 @@ and (orientation: landscape) {
       position: absolute;
   }
 
-  .screen1 {
+  /* .screen1 {
     top: 0px;
     overflow: hidden;
     width: 1024px;
     height: 768px;
     position: absolute;
-  }
+  } */
 
   .textblock1{
     position: absolute;
@@ -1849,13 +1849,13 @@ and (orientation: portrait) {
       position: absolute;
   }
 
-  .screen1 {
+  /* .screen1 {
     top: 0px;
     overflow: hidden;
     width: 375px;
     height: 812px;
     position: absolute;
-  }
+  } */
 
   .textblock1{
     position: absolute;
@@ -2639,13 +2639,13 @@ and (orientation: landscape) {
     position: absolute;
   }
 
-  .screen1 {
+  /* .screen1 {
     top: 0px;
     overflow: hidden;
     width: 812px;
     height: 375px;
     position: absolute;
-  }
+  } */
 
 
 }

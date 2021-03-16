@@ -31,8 +31,15 @@ $(document).ready(function(){
   $('#screen3_3').hide();
 });
 $(document).ready(function(){
-  $('#screen2').hide();
+  $('#screen1').hide();
 });
+$(document).ready(function(){
+  $('#screen6').hide();
+});
+$(document).ready(function(){
+  $('#screen7').hide();
+});
+
 
 
 
@@ -100,5 +107,349 @@ $(document).ready(function(){
 $(document).ready(function(){
   $("#cross2a").on('click', function(){
     $('#bubble5').toggle();
+  });
+});
+
+
+$(document).ready(function(){
+  $("#circle1a, #circle6a, #circle16a").on('click', function(){
+    $('#screen7').show();
+  });
+});
+$(document).ready(function(){
+  $("#closeimg").on('click', function(){
+    $('#screen7').hide();
+  });
+});
+
+
+$(document).ready(function(){
+  $("#whiteimg1, #whiteimg2").on('click', function(){;
+    $('#screen6').show();
+  });
+});
+$(document).ready(function(){
+  $("#whiteimg1b, #whiteimg2b").on('click', function(){;
+    $('#screen6').hide();
+  });
+});
+
+
+
+
+
+
+// IMGCOLORCHANGE
+
+$(function () {
+  let count = 0;
+  $('.circle1a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("blue");
+    }
+    if (count == 4) {
+      $(this).addClass("yellow");
+    }
+    if (count == 6) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("blue yellow dark_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle2a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("yellow");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle3a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle4a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("yellow");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("yellow blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle5a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle6a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("yellow");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue yellow");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle7a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("yellow");
+    }
+    if (count == 8) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 10) {
+      $(this).removeClass("dark_pink blue yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle8a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("yellow");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue yellow");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle9a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("yellow");
+    }
+    if (count == 8) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 10) {
+      $(this).removeClass("dark_pink blue yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle10a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("yellow");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle11a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("yellow");
+    }
+    if (count == 8) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 10) {
+      $(this).removeClass("dark_pink blue yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle12a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle13a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("yellow");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("yellow blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle14a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle15a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("yellow");
+    }
+    if (count == 6) {
+      $(this).addClass("light_pink");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink yellow light_pink");
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle16a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).addClass("dark_pink");
+    }
+    if (count == 4) {
+      $(this).addClass("blue");
+    }
+    if (count == 6) {
+      $(this).addClass("yellow");
+    }
+    if (count == 8) {
+      $(this).removeClass("dark_pink blue yellow");
+    }
   });
 });
