@@ -17,6 +17,24 @@
   }
 } */
 
+@media only screen and (min-width: 1680px) {
+  body {
+      margin: 0 auto;
+      width: 2000px;
+      height: 1500px;
+      position: absolute;
+      overflow: hidden;
+  }
+
+  .screen1 {
+      top: 0vw;
+      margin: 0 auto;
+      width: 2000px;
+      height: 1500px;
+      position: absolute;
+      overflow: hidden;
+  }
+}
 
 
 
@@ -488,16 +506,25 @@ and (orientation: portrait) {
       width: 768px;
       height: 1024px;
       position: absolute;
+      overflow: hidden;
 
   }
 
-  /* .screen1 {
+  .screen1 {
     top: 0vw;
     overflow: hidden;
     width: 768px;
     height: 1024px;
     position: absolute;
-  } */
+  }
+
+  .screen2 {
+    top: 0vw;
+    overflow: hidden;
+    width: 768px;
+    height: 1024px;
+    position: absolute;
+  }
 
 
   .textblock1{
@@ -899,13 +926,6 @@ and (orientation: portrait) {
 
   }
 
-  .screen2 {
-    width: 768px;
-    height: 1024px;
-    position: absolute;
-    overflow: hidden;
-    margin: 0 auto;
-  }
 
   .helpimg1a {
     position: absolute;
@@ -1258,15 +1278,24 @@ and (orientation: landscape) {
       width: 1024px;
       height: 768px;
       position: absolute;
+      overflow: hidden;
   }
 
-  /* .screen1 {
+  .screen1 {
     top: 0px;
     overflow: hidden;
     width: 1024px;
     height: 768px;
     position: absolute;
-  } */
+  }
+
+  .screen2 {
+    top: 0px;
+    overflow: auto;
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+  }
 
   .textblock1{
     position: absolute;
@@ -1651,13 +1680,7 @@ and (orientation: landscape) {
     top: 0.781vw;
   }
 
-  .screen2 {
-    width: 1024px;
-    height: 768px;
-    position: absolute;
-    overflow: hidden;
-    margin: 0 auto;
-  }
+
 
 
   .circle1a {
