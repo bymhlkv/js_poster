@@ -31,7 +31,7 @@ $(document).ready(function(){
   $('#screen3_3').hide();
 });
 $(document).ready(function(){
-  $('#screen2').hide();
+  $('#screen1').hide();
 });
 $(document).ready(function(){
   $('#screen6').hide();
