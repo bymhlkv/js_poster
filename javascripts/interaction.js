@@ -31,7 +31,7 @@ $(document).ready(function(){
   $('#screen3_3').hide();
 });
 $(document).ready(function(){
-  $('#screen1').hide();
+  $('#screen2').hide();
 });
 $(document).ready(function(){
   $('#screen6').hide();
@@ -438,7 +438,7 @@ $(function () {
 $(function () {
   let count = 0;
   $('.circle16a').click(function () {
-    count += 1;
+    count += 2;
     if (count == 2) {
       $(this).addClass("dark_pink");
     }
@@ -452,4 +452,19 @@ $(function () {
       $(this).removeClass("dark_pink blue yellow");
     }
   });
+});
+
+$(document).ready(function(){
+	$(".circle14a, .circle12a, .circle5a, .circle3a").click(function(){
+		$(this).css({
+			width: function(index, value) {
+				return parseFloat (value) +50;
+      }
+		});
+    $(this).css({
+			height: function(index, value) {
+				return parseFloat (value) +50;
+			}
+		});
+	});
 });
