@@ -387,6 +387,11 @@ body {
 
 /* /////SCREEN2///// */
 
+.screen2{
+  position: absolute;
+  margin: 0 auto;
+}
+
 .text1a{
   position: absolute;
   width: 27.431vw;
