@@ -1,0 +1,10 @@
+.circle1:hover {
+  animation: grow 2s infinite;
+
+}
+
+@keyframes grow {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
