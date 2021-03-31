@@ -1,22 +1,5 @@
   /* Desktop */
 
-/* @media only screen and (min-width: 1679px) {
-
-  body {
-    margin: 0 auto;
-    position: absolute;
-    width: 1680px;
-    height: 1050px
-  }
-  .screen1{
-    width: 1680px;
-    height: 1050px
-    margin: 0 auto;
-    position: absolute;
-    overflow: hidden;
-  }
-} */
-
 @media only screen and (min-width: 1680px) {
   body {
       margin: 0 auto;
@@ -34,26 +17,42 @@
       position: absolute;
       overflow: hidden;
   }
+  .screen2 {
+      top: 0vw;
+      margin: 0 auto;
+      width: 1680px;
+      height: 1050px;
+      position: absolute;
+      overflow: hidden;
+  }
 }
 
-/* @media only screen and (min-width: 1440px) {
-  body {
+@media only screen and (min-width: 1440px) {
+  /* body {
       margin: 0 auto;
       width: 1440px;
       height: 2000px;
       position: absolute;
       overflow-x: hidden;
-  }
+  } */
 
-  .screen1 {
+  /* .screen1 {
       top: 0vw;
       margin: 0 auto;
       width: 1440px;
       height: 2000px;
       position: absolute;
       overflow-x: hidden;
+  } */
+  .screen2 {
+    top: 0vw;
+    margin: 0 auto;
+    width: 1440px;
+    height: 900px;
+    position: absolute;
+    overflow: hidden;
   }
-} */
+}
 
 
 
