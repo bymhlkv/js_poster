@@ -22,9 +22,6 @@ $(document).ready(function(){
   $('#screen3_3').hide();
 });
 $(document).ready(function(){
-  $('#screen3_1').hide();
-});
-$(document).ready(function(){
   $('#screen3_2').hide();
 });
 $(document).ready(function(){
@@ -503,4 +500,62 @@ $(document).ready(function(){
 			}
 		});
 	});
+});
+
+
+$(document).ready(function(){
+  $("#helpimg1b").on('click', function(){
+    $('#screen3_2').show();
+  });
+});
+$(document).ready(function(){
+  $("#okbotton_main").on('click', function(){
+    $('#screen3_2').hide();
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.figimg1a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('background-image', 'url(images/button.svg)');
+    }
+    if (count == 3) {
+      $(this).css('background-image', 'url(images/line.svg)');
+    }
+    if (count == 4) {
+      $(this).css('background-image', 'url(images/needle.svg)');
+    }
+  });
+});
+$(function () {
+  let count = 0;
+  $('.figimg2a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('background-image', 'url(images/button.svg)');
+    }
+    if (count == 3) {
+      $(this).css('background-image', 'url(images/line.svg)');
+    }
+    if (count == 4) {
+      $(this).css('background-image', 'url(images/needle.svg)');
+    }
+  });
+});
+$(function () {
+  let count = 0;
+  $('.figimg3a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('background-image', 'url(images/button.svg)');
+    }
+    if (count == 3) {
+      $(this).css('background-image', 'url(images/line.svg)');
+    }
+    if (count == 4) {
+      $(this).css('background-image', 'url(images/needle.svg)');
+    }
+  });
 });
