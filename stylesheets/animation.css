@@ -208,6 +208,8 @@
    animation-iteration-count: 1;
 }
 
+
+
 @-webkit-keyframes swing {
   15% {
     -webkit-transform: translateX(9px);
@@ -503,6 +505,13 @@
 }
 
 .figimg3a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.closeimg:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
