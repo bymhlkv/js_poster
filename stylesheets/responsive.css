@@ -36,6 +36,25 @@
   }
 }
 
+/* @media only screen and (min-width: 1440px) {
+  body {
+      margin: 0 auto;
+      width: 1440px;
+      height: 2000px;
+      position: absolute;
+      overflow-x: hidden;
+  }
+
+  .screen1 {
+      top: 0vw;
+      margin: 0 auto;
+      width: 1440px;
+      height: 2000px;
+      position: absolute;
+      overflow-x: hidden;
+  }
+} */
+
 
 
 @media only screen and (min-width: 1280px)
@@ -1876,6 +1895,14 @@ and (orientation: portrait) {
   }
 
   .screen1 {
+    top: 0px;
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    position: absolute;
+  }
+
+  .screen2 {
     top: 0px;
     overflow: hidden;
     width: 375px;
