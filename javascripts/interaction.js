@@ -559,3 +559,14 @@ $(function () {
     }
   });
 });
+
+
+
+
+$(document).ready(function(){
+	$(".chooseimg1").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose1.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
