@@ -31,7 +31,7 @@ $(document).ready(function(){
   $('#screen3_3').hide();
 });
 $(document).ready(function(){
-  $('#screen1').hide();
+  $('#screen2').hide();
 });
 $(document).ready(function(){
   $('#screen6').hide();
@@ -466,5 +466,25 @@ $(document).ready(function(){
 				return parseFloat (value) +50;
 			}
 		});
+	});
+});
+
+
+$(document).ready(function(){
+	$(".textblock3").click(function(){
+		$(".screen2").show();
+	});
+  $(".textblock3").click(function(){
+		$(".screen1").hide();
+	});
+});
+
+
+$(document).ready(function(){
+	$(".text1a").click(function(){
+		$(".screen2").hide();
+	});
+  $(".text1a").click(function(){
+		$(".screen1").show();
 	});
 });
