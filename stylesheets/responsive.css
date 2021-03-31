@@ -25,6 +25,14 @@
       position: absolute;
       overflow: hidden;
   }
+  .screen3_2{
+    top: 0vw;
+    margin: 0 auto;
+    width: 1680px;
+    height: 1050px;
+    position: absolute;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -49,6 +57,20 @@
     margin: 0 auto;
     width: 1440px;
     height: 900px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .screen3_2{
+    top: 0vw;
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    position: absolute;
+    overflow: hidden;
+  }
+  .backgroundrec2{
+    width: 120vw;
+    height: 70vw;
     position: absolute;
     overflow: hidden;
   }
@@ -1214,12 +1236,21 @@ and (orientation: portrait) {
     top: 27vw;
   }
 
-  .screen3-1 {
+  .screen3_1 {
     display: none
   }
 
-  .screen3-3 {
+  .screen3_3 {
     display: none
+  }
+
+  .screen3_2 {
+    top: 0vw;
+    margin: 0 auto;
+    width: 768px;
+    height: 1024px;
+    position: absolute;
+    overflow: hidden;
   }
 
   .infoimg2 {
@@ -1231,8 +1262,8 @@ and (orientation: portrait) {
 
   .backgroundrec2 {
     position: absolute;
-    width: 135vw;
-    height: 150vw;
+    width: 794px;
+    height: 1035px;
     background: #000000;
   }
 
@@ -1839,12 +1870,21 @@ and (orientation: landscape) {
     top: 26vw;
   }
 
-  .screen3-1 {
+  .screen3_1 {
     display: none
   }
 
-  .screen3-3 {
+  .screen3_3 {
     display: none
+  }
+
+  .screen3_2 {
+    top: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
   }
 
   .infoimg2 {
@@ -1857,10 +1897,12 @@ and (orientation: landscape) {
 
   .backgroundrec2 {
     position: absolute;
-    width: 150vw;
-    height: 150vw;
+    width: 1060px;
+    height: 780px;
     background: #000000;
   }
+
+
 
   .okbotton2 {
     left: 45.215vw;
