@@ -458,12 +458,12 @@ $(document).ready(function(){
 	$(".circle14a, .circle12a, .circle5a, .circle3a").click(function(){
 		$(this).css({
 			width: function(index, value) {
-				return parseFloat (value) +50;
+				return parseFloat (value) +20;
       }
 		});
     $(this).css({
 			height: function(index, value) {
-				return parseFloat (value) +50;
+				return parseFloat (value) +20;
 			}
 		});
 	});
@@ -486,5 +486,21 @@ $(document).ready(function(){
 	});
   $(".text1a").click(function(){
 		$(".screen1").show();
+	});
+});
+
+
+$(document).ready(function(){
+	$(".circle2a, .circle10a, .circle15a, .circle8a").click(function(){
+		$(this).css({
+			width: function(index, value) {
+				return parseFloat (value) -20;
+      }
+		});
+    $(this).css({
+			height: function(index, value) {
+				return parseFloat (value) -20;
+			}
+		});
 	});
 });
