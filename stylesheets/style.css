@@ -761,27 +761,36 @@ body {
 
 .figimg1a {
   position: absolute;
+  margin: 0 auto;
   width: 22.292vw;
   height: 22.292vw;
   left: 6.181vw;
   top: 11.597vw;
+  background-image: url('../images/fig1a.svg');
+  background-repeat: no-repeat;
 }
 
 .figimg2a {
   position: absolute;
-  width: 7.167vw;
+  margin: 0 auto;
+  width: 22vw;
+  height: 22vw;
   left: 59.690vw;
   top: 32.014vw;
-
+  background-image: url('../images/fig2a.svg');
+  background-repeat: no-repeat;
   transform: rotate(6.42deg);
 }
 
 .figimg3a {
+  background-image: url('../images/fig3a.svg');
   position: absolute;
   width: 24.306vw;
+  height: 24.306vw;
   left: 87.5vw;
   top: 20.903vw;
   z-index: 1;
+  background-repeat: no-repeat;
 }
 
 .cross1a{
