@@ -39,6 +39,10 @@ body {
   }
 } */
 
+.screen1 {
+  background-color: black;
+}
+
 .textblock1{
   position: absolute;
   width: 54.792vw;
@@ -54,6 +58,7 @@ body {
   text-align: center;
 
   color: #FFFFFF;
+  z-index: 2;
 }
 
 .textblock2{
@@ -80,6 +85,7 @@ body {
   top: -2.917vw;
   border-radius: 50%;
   background: #21B8EB;
+
 }
 
 .circle2 {
@@ -100,7 +106,7 @@ body {
   top: 4.931vw;
   border-radius: 50%;
   background: #F3A2BC;
-  z-index: -1;
+  /* z-index: -1; */
 }
 
 .circle4 {
@@ -243,9 +249,9 @@ body {
   height: 16.008vw;
   left: 16.990vw;
   top: -1.302vw;
-
   background: #FFCCD6;
   transform: matrix(-0.5, -0.86, -0.86, 0.5, 0, 0);
+  opacity: 1;
 }
 
 .rectangle2 {
@@ -254,9 +260,9 @@ body {
   height: 24.861vw;
   left: 53vw;
   top: -3.992vw;
-
   background: linear-gradient(0deg, #FFEC51, #FFEC51), #21B8EB;
   transform: rotate(-29.2deg);
+  opacity: 1;
 }
 
 .rectangle3 {
@@ -265,9 +271,9 @@ body {
   height: 24.861vw;
   left: 95vw;
   top: 8vw;
-
   background: linear-gradient(0deg, #21B8EB, #21B8EB), #21B8EB;
   transform: rotate(-46.87deg);
+  opacity: 1;
 }
 
 .colorimg1 {
@@ -295,7 +301,7 @@ body {
   position: absolute;
   left: 28px;
   top: -6vw;
-  z-index: -1;
+  z-index: 1;
 }
 
 .arrowimg1 {
@@ -1458,3 +1464,7 @@ body {
 /* .inner6 {
   z-index: 6;
 } */
+
+.hidden {
+  display: none;
+}
