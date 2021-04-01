@@ -2016,43 +2016,43 @@ and (orientation: landscape) {
   }
 
   .chooseimg1{
-    width: 13vw;
-    height: 13vw;
+    width: 10vw;
+    height: 10vw;
     left: 28.328vw;
     top: 32.364vw;
   }
 
   .chooseimg2{
-    width: 16vw;
-    height: 15vw;
+    width: 10vw;
+    height: 10vw;
     left: 44.707vw;
-    top: 31vw;
+    top: 32.364vw;
   }
 
   .chooseimg3{
-    width: 16vw;
-    height: 16vw;
+    width: 10vw;
+    height: 10vw;
     left: 61.750vw;
     top: 32.031vw;
   }
 
   .chooseimg4{
-    width: 18vw;
-    height: 16vw;
+    width: 10vw;
+    height: 10vw;
     left: 27.539vw;
     top: 46vw;
   }
 
   .chooseimg5{
-    width: 16vw;
-    height: 16vw;
-    left: 45.954vw;
-    top: 47vw;
+    width: 10vw;
+    height: 10vw;
+    left: 44vw;
+    top: 46vw;
   }
 
   .chooseimg6{
-    width: 18vw;
-    height: 16vw;
+    width: 10vw;
+    height: 10vw;
     left: 60.753vw;
     top: 46vw;
   }
