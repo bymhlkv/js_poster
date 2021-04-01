@@ -941,7 +941,7 @@ body {
   top: -0.878vw;
   opacity: 70%;
   background: #000000;
-  z-index: 3;
+  z-index: 6;
 }
 
 .infoimg2 {
@@ -950,7 +950,7 @@ body {
   height: 34.068vw;
   left: 28.184vw;
   top: 7.540vw;
-  z-index: 4;
+  z-index: 7;
 }
 
 .okbotton2 {
@@ -960,7 +960,7 @@ body {
   left: 46.486vw;
   top: 41.581vw;
   background: #FFFFFF;
-  z-index: 3;
+  z-index: 7;
   border-radius: 50%;
 }
 
@@ -978,7 +978,7 @@ body {
   line-height: 2.050vw;
   text-align: center;
   color: #000000;
-  z-index: 3;
+  z-index: 7;
 }
 
 .infoimg3 {
@@ -1122,7 +1122,7 @@ body {
 
 .bg5 {
   width: 100vw;
-  height: 100vw;
+  height: 64.286vw;
   background: black;
   position: absolute;
   left: 0vw;
