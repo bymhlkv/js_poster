@@ -1,3 +1,5 @@
+<script src="jquery.ui.touch-punch.min.js"></script>
+
 $(function() {
   $(".circle1a, .circle2a, .circle3a, .circle4a, .circle5a, .circle6a, .circle7a, .circle8a, .circle9a, .circle10a, .circle11a, .circle12a, .circle13a, .circle14a, .circle15a, .circle16a, .circle17a, .circle18a, .circle19a, .rectangle1a, .rectangle2a, .rectangle3a, .rectangle4a, .rectangle5a, .rectangle6a, .colorimg1a, .colorimg2a, .colorimg3a, .colorimg4a, .whiteimg1, .whiteimg2, .cross1a, .cross2a, .cross3a, .cross4a, .cross5a, .cross6a, .cross7a, .cross8a, .cross9a, .figimg1a, .figimg2a, .figimg3a").draggable();
 });
@@ -566,6 +568,41 @@ $(function () {
 $(document).ready(function(){
 	$(".chooseimg1").click(function(){
     $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose1.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
+$(document).ready(function(){
+	$(".chooseimg2").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose2.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
+$(document).ready(function(){
+	$(".chooseimg3").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose3.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
+$(document).ready(function(){
+	$(".chooseimg4").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose4.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
+$(document).ready(function(){
+	$(".chooseimg5").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose5.svg)');
+    $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
+    $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
+	});
+});
+$(document).ready(function(){
+	$(".chooseimg6").click(function(){
+    $(".circle1a, .circle6a, .circle16a").css("background-image",'url(images/choose6.svg)');
     $(".circle1a, .circle6a, .circle16a").css("background-color",'unset');
     $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
 	});
