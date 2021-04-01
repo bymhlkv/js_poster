@@ -565,3 +565,121 @@
   transform: scale(1.2);
   transition: 0.5s;
 }
+
+
+.circle1b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle2b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle3b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle4b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle5b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle6b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle7b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle8b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+.circle9b:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+
+.main_text:hover {
+  -webkit-transform: rotateZ(20deg);
+  -ms-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
+  transition: 0.5s;
+  color: #FFEC51;
+
+}
+.main_text2:hover {
+  -webkit-transform: rotateZ(-20deg);
+  -ms-transform: rotateZ(-20deg);
+  transform: rotateZ(-20deg);
+  transition: 0.5s;
+  color: #F3A2BC;
+}
+
+.cross1b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
+.cross2b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
+.cross3b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
+.cross4b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
+.cross5b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
+.cross6b:hover {
+  -webkit-transform: rotateZ(50deg);
+  -ms-transform: rotateZ(50deg);
+  transform: rotateZ(50deg);
+  transition: 0.3s;
+}
