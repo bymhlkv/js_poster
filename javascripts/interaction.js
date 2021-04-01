@@ -1,26 +1,26 @@
-function touchHandler(event) {
-    var touch = event.changedTouches[0];
-
-    var simulatedEvent = document.createEvent("MouseEvent");
-        simulatedEvent.initMouseEvent({
-        touchstart: "mousedown",
-        touchmove: "mousemove",
-        touchend: "mouseup"
-    }[event.type], true, true, window, 1,
-        touch.screenX, touch.screenY,
-        touch.clientX, touch.clientY, false,
-        false, false, false, 0, null);
-
-    touch.target.dispatchEvent(simulatedEvent);
-    event.preventDefault();
-}
-
-function init() {
-    document.addEventListener("touchstart", touchHandler, true);
-    document.addEventListener("touchmove", touchHandler, true);
-    document.addEventListener("touchend", touchHandler, true);
-    document.addEventListener("touchcancel", touchHandler, true);
-}
+// function touchHandler(event) {
+//     var touch = event.changedTouches[0];
+//
+//     var simulatedEvent = document.createEvent("MouseEvent");
+//         simulatedEvent.initMouseEvent({
+//         touchstart: "mousedown",
+//         touchmove: "mousemove",
+//         touchend: "mouseup"
+//     }[event.type], true, true, window, 1,
+//         touch.screenX, touch.screenY,
+//         touch.clientX, touch.clientY, false,
+//         false, false, false, 0, null);
+//
+//     touch.target.dispatchEvent(simulatedEvent);
+//     event.preventDefault();
+// }
+//
+// function init() {
+//     document.addEventListener("touchstart", touchHandler, true);
+//     document.addEventListener("touchmove", touchHandler, true);
+//     document.addEventListener("touchend", touchHandler, true);
+//     document.addEventListener("touchcancel", touchHandler, true);
+// }
 
 $(function() {
   $(".circle1a, .circle2a, .circle3a, .circle4a, .circle5a, .circle6a, .circle7a, .circle8a, .circle9a, .circle10a, .circle11a, .circle12a, .circle13a, .circle14a, .circle15a, .circle16a, .circle17a, .circle18a, .circle19a, .rectangle1a, .rectangle2a, .rectangle3a, .rectangle4a, .rectangle5a, .rectangle6a, .colorimg1a, .colorimg2a, .colorimg3a, .colorimg4a, .whiteimg1, .whiteimg2, .cross1a, .cross2a, .cross3a, .cross4a, .cross5a, .cross6a, .cross7a, .cross8a, .cross9a, .figimg1a, .figimg2a, .figimg3a").draggable();
