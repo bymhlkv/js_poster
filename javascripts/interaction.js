@@ -10,6 +10,10 @@ $(function() {
   $("#bubble1, #bubble2, #bubble3, #bubble4, #bubble5").draggable();
 });
 
+$(function() {
+  $(".circle1b, .circle2b, .circle3b, .circle4b, .circle5b, .circle6b, .circle7b, .circle8b, .circle9b, .whiteimg1b, .whiteimg2b, .colorimg1b, .colorimg2b, .colorimg3b, .rectangle1b, .rectangle2b, .figimg1b, .figimg2b, .cross1b, .cross2b, .cross3b, .cross4b, .cross4b, .cross5b, .cross6b").draggable();
+});
+
 
 
 $(document).ready(function(){
@@ -610,4 +614,167 @@ $(document).ready(function(){
     $(".circle1a, .circle6a, .circle16a").css("background-position",'center');
     $(".circle1a, .circle6a, .circle16a").css("background-size",'contain');
 	});
+});
+
+// $(function () {
+//   $(".circle4a").click(function() {
+//     $(this).css('border', "solid 2px red");
+//   });
+// });
+
+$(function () {
+  let count = 0;
+  $('.circle4a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('border', 'solid 10px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 3) {
+      $(this).css('border', 'solid 20px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 4) {
+      $(this).css('border', 'solid 30px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 5) {
+      $(this).css('border', 'solid 40px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 6) {
+      $(this).css('border', 'solid 50px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 7) {
+      $(this).css('border', 'solid 60px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle13a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('border', 'solid 10px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 3) {
+      $(this).css('border', 'solid 20px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 4) {
+      $(this).css('border', 'solid 30px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 5) {
+      $(this).css('border', 'solid 40px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 6) {
+      $(this).css('border', 'solid 50px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 7) {
+      $(this).css('border', 'solid 60px #F3A2BC');
+      $(this).css('background-color', 'transparent');
+    }
+  });
+});
+
+$(function () {
+  let count = 0;
+  $('.circle7a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('border', 'solid 10px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 3) {
+      $(this).css('border', 'solid 20px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 4) {
+      $(this).css('border', 'solid 30px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 5) {
+      $(this).css('border', 'solid 40px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 6) {
+      $(this).css('border', 'solid 50px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 7) {
+      $(this).css('border', 'solid 60px white');
+      $(this).css('background-color', 'transparent');
+    }
+  });
+});
+
+
+$(function () {
+  let count = 0;
+  $('.circle11a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('border', 'solid 10px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 3) {
+      $(this).css('border', 'solid 20px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 4) {
+      $(this).css('border', 'solid 30px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 5) {
+      $(this).css('border', 'solid 40px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 6) {
+      $(this).css('border', 'solid 50px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 7) {
+      $(this).css('border', 'solid 60px white');
+      $(this).css('background-color', 'transparent');
+    }
+  });
+});
+
+
+$(function () {
+  let count = 0;
+  $('.circle9a').click(function () {
+    count += 1;
+    if (count == 2) {
+      $(this).css('border', 'solid 10px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 3) {
+      $(this).css('border', 'solid 20px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 4) {
+      $(this).css('border', 'solid 30px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 5) {
+      $(this).css('border', 'solid 40px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 6) {
+      $(this).css('border', 'solid 50px white');
+      $(this).css('background-color', 'transparent');
+    }
+    if (count == 7) {
+      $(this).css('border', 'solid 60px white');
+      $(this).css('background-color', 'transparent');
+    }
+  });
 });
