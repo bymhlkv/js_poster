@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="stylesheet" href="stylesheets/animation.css">
     <link rel="stylesheet" href="stylesheets/responsive.css">
+    <link rel="shortcut icon" href="images/favicon.io">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="jquery.ui.touch-punch.min.js"></script>
     <script src="javascripts/interaction.js" charset="utf-8"></script>
     <meta name="viewport" content="width=device-width">
 
@@ -18,6 +20,8 @@
   </head>
 
   <body>
+
+    <!-- ////////ПЕРВЫЙ ЭКРАН//////// -->
 
     <div id="screen1"class="screen1">
 
@@ -41,9 +45,6 @@
         <div class="circle14"></div>
         <div class="circle15"></div>
         <div class="circle16"></div>
-        <!-- <div class="circle116"></div>
-        <div class="circle117"></div> -->
-
       </div>
 
       <div class="rectangles">
@@ -78,8 +79,11 @@
 
       <div id="helpimg1"><img class="helpimg"src="images/help.svg" alt=""></div>
 
-</div>
+   </div>
 
+
+
+    <!-- ////////ВТОРОЙ ЭКРАН//////// -->
 
     <div id="screen2" class="screen2">
 
@@ -145,104 +149,94 @@
 
   </div>
 
-  <div id="screen3_1" class="screen3a1">
-    <div><img class="infoimg1"src="images/info1.svg" alt=""></div>
-    <div class="backgroundrec1"></div>
-    <div class="okbotton1"></div>
-    <div class="oktext1">Ок!</div>
-  </div>
+      <!-- ////////ЭКРАН С ИНФОРМАЦИЕЙ//////// -->
 
-  <div id="screen3_2" class="screen3a2">
-    <div><img class="infoimg2"src="images/info2.svg" alt=""></div>
-    <div class="backgroundrec2"></div>
-    <div id="okbotton_main">
-      <div class="okbotton2"></div>
-      <div class="oktext2">Ок!</div>
-    </div>
-  </div>
-
-  <div id="screen3_3" class="screen3a3">
-    <div><img class="infoimg3"src="images/info3.svg" alt=""></div>
-    <div class="backgroundrec3"></div>
-    <div class="okbotton3"></div>
-    <div class="oktext3">Ок!</div>
-  </div>
-
-  <div class="bubbles">
-    <div id="bubble1"><img class="bubble1"src="images/bubble1.svg" alt=""></div>
-    <div id="bubble2"><img class="bubble2"src="images/bubble2.svg" alt=""></div>
-    <div id="bubble3"><img class="bubble3"src="images/bubble3.svg" alt=""></div>
-    <div id="bubble4"><img class="bubble4"src="images/bubble4.svg" alt=""></div>
-    <div id="bubble5"><img class="bubble5"src="images/bubble5.svg" alt=""></div>
-  </div>
-
-  <!-- <div id="screen6" class="screen6">
-
-    <div class="bg5"></div>
-
-      <div class="main_text">ОЧУМЕЛЫЕ РУЧКИ</div>
-      <div class="main_text2">клуб рукоделия для байкеров</div>
-
-      <div class="circles2">
-        <div class="circle1b"></div>
-        <div class="circle2b"></div>
-        <div class="circle3b"></div>
-        <div class="circle4b"></div>
-        <div class="circle5b"></div>
-        <div class="circle6b"></div>
-        <div class="circle7b"></div>
-        <div class="circle8b"></div>
-        <div class="circle9b"></div>
+      <div id="screen3_2" class="screen3a2">
+        <div><img class="infoimg2"src="images/info2.svg" alt=""></div>
+        <div class="backgroundrec2"></div>
+        <div id="okbotton_main">
+          <div class="okbotton2"></div>
+          <div class="oktext2">Ок!</div>
+        </div>
       </div>
 
-      <div id="helpimg1b"><img class="helpimg1b"src="images/help.svg" alt=""></div>
 
-      <div id="whiteimg1b"><img class="whiteimg1b"src="images/white3.svg" alt=""></div>
-      <div id="whiteimg2b"><img class="whiteimg2b"src="images/white4.svg" alt=""></div>
+      <!-- ////////БАБЛЫ//////// -->
 
-      <div><img class="colorimg1b"src="images/color8.svg" alt=""></div>
-      <div><img class="colorimg2b"src="images/color9.svg" alt=""></div>
-      <div><img class="colorimg3b"src="images/color10.svg" alt=""></div>
-
-      <div class="rectangles2">
-        <div class="rectangle1b"></div>
-        <div class="rectangle2b"></div>
+      <div class="bubbles">
+        <div id="bubble1"><img class="bubble1"src="images/bubble1.svg" alt=""></div>
+        <div id="bubble2"><img class="bubble2"src="images/bubble2.svg" alt=""></div>
+        <div id="bubble3"><img class="bubble3"src="images/bubble3.svg" alt=""></div>
+        <div id="bubble4"><img class="bubble4"src="images/bubble4.svg" alt=""></div>
+        <div id="bubble5"><img class="bubble5"src="images/bubble5.svg" alt=""></div>
       </div>
 
-      <div><img class="figimg1b"src="images/fig1a.svg" alt=""></div>
-      <div><img class="figimg2b"src="images/fig2a.svg" alt=""></div>
 
-      <div class="crosses2">
-        <div><img class="cross1b"src="images/cross1a.svg" alt=""></div>
-        <div><img class="cross2b"src="images/cross1a.svg" alt=""></div>
-        <div><img class="cross3b"src="images/cross2.svg" alt=""></div>
-        <div><img class="cross4b"src="images/cross2.svg" alt=""></div>
-        <div><img class="cross5b"src="images/cross3.svg" alt=""></div>
-        <div><img class="cross6b"src="images/cross6.svg" alt=""></div>
+      <!-- ////////ВЫБОР СТИЛЯ//////// -->
+
+      <div id="screen7" class="screen7">
+        <div class="backgroundrec4"></div>
+        <div class="choosetext">ВЫБЕРИТЕ СТИЛЬ</div>
+        <div id="closeimg"><img class="closeimg"src="images/close.svg" alt=""></div>
+
+        <div class="chooseimgs">
+          <div class="chooseimg1"></div>
+          <div class="chooseimg2"></div>
+          <div class="chooseimg3"></div>
+          <div class="chooseimg4"></div>
+          <div class="chooseimg5"></div>
+          <div class="chooseimg6"></div>
+        </div>
+      </div>
+
+
+      <!-- ////////ДОПОЛНИТЕЛЬНАЯ РАСКЛАДКА//////// -->
+
+      <!-- <div id="screen6" class="screen6">
+
+        <div class="bg5"></div>
+
+          <div class="main_text">ОЧУМЕЛЫЕ РУЧКИ</div>
+          <div class="main_text2">клуб рукоделия для байкеров</div>
+
+          <div class="circles2">
+            <div class="circle1b"></div>
+            <div class="circle2b"></div>
+            <div class="circle3b"></div>
+            <div class="circle4b"></div>
+            <div class="circle5b"></div>
+            <div class="circle6b"></div>
+            <div class="circle7b"></div>
+            <div class="circle8b"></div>
+            <div class="circle9b"></div>
+          </div>
+
+          <div id="helpimg1b"><img class="helpimg1b"src="images/help.svg" alt=""></div>
+
+          <div id="whiteimg1b"><img class="whiteimg1b"src="images/white3.svg" alt=""></div>
+          <div id="whiteimg2b"><img class="whiteimg2b"src="images/white4.svg" alt=""></div>
+
+          <div><img class="colorimg1b"src="images/color8.svg" alt=""></div>
+          <div><img class="colorimg2b"src="images/color9.svg" alt=""></div>
+          <div><img class="colorimg3b"src="images/color10.svg" alt=""></div>
+
+          <div class="rectangles2">
+            <div class="rectangle1b"></div>
+            <div class="rectangle2b"></div>
+          </div>
+
+          <div><img class="figimg1b"src="images/fig1a.svg" alt=""></div>
+          <div><img class="figimg2b"src="images/fig2a.svg" alt=""></div>
+
+          <div class="crosses2">
+            <div><img class="cross1b"src="images/cross1a.svg" alt=""></div>
+            <div><img class="cross2b"src="images/cross1a.svg" alt=""></div>
+            <div><img class="cross3b"src="images/cross2.svg" alt=""></div>
+            <div><img class="cross4b"src="images/cross2.svg" alt=""></div>
+            <div><img class="cross5b"src="images/cross3.svg" alt=""></div>
+            <div><img class="cross6b"src="images/cross6.svg" alt=""></div>
+          </div>
       </div> -->
-
-
-
-  </div>
-
-  <div id="screen7" class="screen7">
-    <div class="backgroundrec4"></div>
-    <div class="choosetext">ВЫБЕРИТЕ СТИЛЬ</div>
-    <div id="closeimg"><img class="closeimg"src="images/close.svg" alt=""></div>
-
-    <div class="chooseimgs">
-      <div class="chooseimg1"></div>
-      <div><img class="chooseimg2"src="images/choose2.svg" alt=""></div>
-      <div><img class="chooseimg3"src="images/choose3.svg" alt=""></div>
-      <div><img class="chooseimg4"src="images/choose4.svg" alt=""></div>
-      <div><img class="chooseimg5"src="images/choose5.svg" alt=""></div>
-      <div><img class="chooseimg6"src="images/choose6.svg" alt=""></div>
-    </div>
-  </div>
-
-
-
-
 
 
   </div>
