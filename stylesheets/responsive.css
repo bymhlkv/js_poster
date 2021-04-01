@@ -2909,6 +2909,8 @@ and (orientation: portrait) {
     height: 14.085vw;
     left: 27.467vw;
     top: 87.467vw;
+    background-position: center;
+
   }
 
   .chooseimg2{
@@ -2916,6 +2918,8 @@ and (orientation: portrait) {
     height: 16.307vw;
     left: 25.867vw;
     top: 131.733vw;
+    background-position: center;
+
   }
 
   .chooseimg3{
@@ -2923,6 +2927,8 @@ and (orientation: portrait) {
     height: 63.96px;
     left: 97px;
     top: 400px;
+    background-position: center;
+
   }
 
   .chooseimg4{
@@ -2930,6 +2936,8 @@ and (orientation: portrait) {
     height: 64.02px;
     left: 205px;
     top: 493px;
+    background-position: center;
+
   }
 
   .chooseimg5{
@@ -2937,6 +2945,8 @@ and (orientation: portrait) {
     height: 53.87px;
     left: 213px;
     top: 327px;
+    background-position: center;
+
   }
 
   .chooseimg6{
@@ -2944,6 +2954,8 @@ and (orientation: portrait) {
     height: 63.58px;
     left: 203px;
     top: 400px;
+    background-position: center;
+
   }
 
 
