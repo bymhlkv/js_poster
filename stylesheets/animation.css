@@ -210,6 +210,9 @@
 
 
 
+
+
+
 @-webkit-keyframes swing {
   15% {
     -webkit-transform: translateX(9px);
@@ -516,4 +519,49 @@
   -ms-transform: scale(1.2);
   transform: scale(1.2);
   transition: 0.3s;
+}
+
+.okbotton2:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+  box-shadow: 0 0 1.5vw 0.6vw rgba(215, 215, 215, 0.5);
+}
+
+.chooseimg1:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.chooseimg2:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.chooseimg3:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.chooseimg4:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.chooseimg5:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.chooseimg6:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 0.5s;
 }
