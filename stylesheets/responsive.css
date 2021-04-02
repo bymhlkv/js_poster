@@ -44,7 +44,7 @@
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
   /* body {
       margin: 0 auto;
       width: 1440px;
@@ -115,20 +115,7 @@ and (max-width: 1285px) {
     } */
   }
 
-  @media only screen
-  and (min-device-width: 1443px)
-  and (max-device-width: 1681px)
-  and (orientation: landscape) {
 
-
-    .screen3-2 {
-      display: none
-    }
-
-    .screen3-3 {
-      display: none
-    }
-}
 
 @media only screen
 and (max-device-width: 1440px) {
